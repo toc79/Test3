@@ -20,6 +20,9 @@ begin
 						 Where @DocType='InvoiceCum' and a.id_zbirnik = @id and c.ident_stevilka is not null and c.ident_stevilka <> '')
 end
 
+--dodani komentari radi githuba
+--2 red
+
 if @DocType = 'Invoice'
 begin
 	Select 
