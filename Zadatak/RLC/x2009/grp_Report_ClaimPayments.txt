@@ -1,0 +1,98 @@
+------------------------------------------------------------------------------------------------------------
+-- Function for getting data for PP_Izbor, search type 3
+-- 
+--
+-- History:
+-- 21.11.2003 Muri; created
+-- 20.03.2004 Matjaz; Changes due to id_cont 2 PK transition
+-- 05.05.2004 Matjaz; added field id_cont
+-- 30.08.2004 Muri; chenge inputparameters & WHERE statement
+-- 01.09.2004 Muri; spremenil char in varchar(X) v varchar(8000), 
+-- 23.09.2004 Muri; dodal parameter "Prikai tudi zaprte terjatve" (@par_zaprteterj_enabled int)
+-- 16.10.2004 Muri; spremenil UDF v SP
+-- 18.10.2004 Matjaz; popravil SP, ker je parameter @par_obdobjepolje_polje v primeru datuma zapadlosti dobil vrednost 2, ne pa 0
+-- 15.02.2005 Matjaz; fixed bug - when checking saldo it is already in correct id_tec and does not have to be converted with gfn_xchange
+-- 01.03.2005 Darko; added order by
+-- 25.07.2006 Vilko; Bug ID 26084 - added parameters for aneks and status_akt, sql statement is now generated dynamicaly
+-- 20.02.2007 Darko; Maintenance 6822 - added parameter @par_vrsteterjatev_...
+-- 11.07.2007 MatjazB; Bug ID 26755 - added parameters for criteria (STRM)
+-- 11.12.2007 Vilko; MID 12227 - removed parameter for criteria 'Vkljuèi neaktivne pog.'
+------------------------------------------------------------------------------------------------------------
+CREATE     PROCEDURE [dbo].[grp_Report_ClaimPayments] 
+@par_pogodba_enabled int,
+@par_pogodba_pogodba varchar(8000), 
+@par_partner_enabled int,
+@par_partner_partner char(6),
+@par_obdobjepolje_enabled int,
+@par_obdobjepolje_datumod char(8), --beginning period date
+@par_obdobjepolje_datumdo char(8),  --end period date
+@par_obdobjepolje_polje int, --=1 - date of document, =2 - date of withdrowal
+@par_tecajnica_enabled int,
+@par_tecajnica_tecajnica char(3), -- Exchange rate ID
+@par_tecajnica_datumtec char(8),  -- today
+@par_tecajnica_valuta char(3), 
+@par_zaprteterj_enabled int,
+@par_vrsteterjatev_enabled int,
+@par_vrsteterjatev_terjatve varchar(8000),
+@par_aneks_enabled int,
+@par_aneks_anekstype int,
+@par_aneks_anekses varchar(8000),
+@par_status_akt_enabled int,
+@par_status_akt_akttype int,
+@par_status_akt_akt varchar(8000),
+@par_strm_enabled int,
+@par_strm_strm varchar(8000) --@niz_strm
+
+AS
+
+DECLARE @cmd varchar(8000)
+SET @cmd = 'SELECT * FROM dbo.gft_Report_ClaimPayments_General
+(
+''' + @par_tecajnica_tecajnica + ''',
+''' + @par_tecajnica_datumtec + ''',
+''' + @par_tecajnica_valuta + '''
+) WHERE '
+
+IF @par_pogodba_enabled = 1 SET @cmd = @cmd + ' id_pog LIKE ''' + @par_pogodba_pogodba + ''' AND '
+
+IF @par_partner_enabled = 1 SET @cmd = @cmd + ' id_kupca = ''' + @par_partner_partner + ''' AND '
+
+IF @par_obdobjepolje_enabled = 1
+BEGIN
+	IF @par_obdobjepolje_polje = 1
+	SET @cmd = @cmd + ' datum_dok BETWEEN ''' + @par_obdobjepolje_datumod + ''' AND ''' + @par_obdobjepolje_datumdo + ''' AND '
+	ELSE SET @cmd = @cmd + ' dat_zap BETWEEN ''' + @par_obdobjepolje_datumod + ''' AND ''' + @par_obdobjepolje_datumdo + ''' AND '
+END
+
+IF @par_zaprteterj_enabled = 0 SET @cmd = @cmd + ' saldo > 0 AND '
+
+IF @par_vrsteterjatev_enabled = 1 SET 
+	@cmd = @cmd + ' CHARINDEX(id_terj,''' + @par_vrsteterjatev_terjatve + ''') != 0 AND '
+
+
+IF @par_aneks_enabled = 1
+BEGIN
+	IF @par_aneks_anekstype = 1
+	SET @cmd = @cmd + ' (CHARINDEX(aneks,''' + @par_aneks_anekses + ''') = 0 OR aneks = '''') AND '
+	ELSE SET @cmd = @cmd + 'NOT (CHARINDEX(aneks,''' + @par_aneks_anekses + ''') = 0 OR aneks = '''') AND '
+END
+
+IF @par_status_akt_enabled = 1
+BEGIN
+	IF @par_status_akt_akttype = 1
+	SET @cmd = @cmd + ' (CHARINDEX(status_akt,''' + @par_status_akt_akt + ''') = 0) AND '
+	ELSE SET @cmd = @cmd + ' (CHARINDEX(status_akt,''' + @par_status_akt_akt + ''') != 0) AND '
+END
+
+IF @par_strm_enabled = 1
+BEGIN
+	SET @par_strm_strm = '''' + REPLACE(@par_strm_strm, ',', ''',''') + ''''
+	SET @cmd = @cmd + ' id_strm IN (' + @par_strm_strm + ') AND '
+END
+
+SET @cmd = LEFT(@cmd, LEN(@cmd)- 4) + ' ORDER BY saldo '
+
+PRINT (@cmd)
+EXECUTE(@cmd)
+
+GO

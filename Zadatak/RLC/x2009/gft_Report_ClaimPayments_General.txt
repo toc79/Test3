@@ -1,0 +1,83 @@
+------------------------------------------------------------------------------------------------------------
+-- Function for getting data for PP_Izbor, search type 3
+-- 
+--
+-- History:
+-- 21.11.2003 Muri; created
+-- 20.03.2004 Matjaz; Changes due to id_cont 2 PK transition
+-- 05.05.2004 Matjaz; added field id_cont
+-- 30.08.2004 Muri; changed input parameters & WHERE statement
+-- 01.09.2004 Muri, spremenil char in varchar(X) v varchar(8000), 
+-- 23.09.2004 Muri; dodal parameter "Prikai tudi zaprte terjatve" (@par_zaprteterj_enabled int)
+-- 05.01.2005 Muri; Popravil pogoj za "Neaktivna"
+-- 01.02.2005 Darko: dodal pogodba.sklic
+-- 26.26.2006 Darko: bug 26003 - pl_... values are now calculated regarding sif_terj
+-- 25.07.2006 Matjaz; Bug ID 26098: corrected typing error - sif_terj is LOBR not LOB
+-- 05.09.2006 Vilko; Bug ID 26197: added missing fields P.status_akt and P.aneks
+-- 11.07.2007 MatjazB; Bug ID 26755 - added field p.id_strm
+-- 11.12.2007 Vilko; MID 12227 - removed commented code
+-- 12.05.2008 Igor; added fields C.ulica, C.id_poste, C.mesto
+------------------------------------------------------------------------------------------------------------
+CREATE           FUNCTION [dbo].[gft_Report_ClaimPayments_General] (
+    @par_tecajnica_tecajnica char(3), -- Exchange rate ID
+    @par_tecajnica_datumtec datetime,  -- today
+    @par_tecajnica_valuta char(3)
+)
+RETURNS TABLE 
+AS  
+RETURN(
+    SELECT  PP.ID_Cont,
+            P.ID_Pog,
+            PP.ID_Kupca, 
+            PP.Dat_Zap,
+            PP.DDV_ID,
+            PP.St_Dok,	
+            PP.ID_Terj,
+            (PP.Kredit/PP.Debit)*100 AS Proc_plac,
+            C.vr_osebe,
+            C.naz_kr_kup,
+            C.ulica,
+            C.id_poste,
+            C.mesto,        
+            VT.Naziv,
+            PP.Dat_obr,
+            PP.Zap_obr, 
+            dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Debit, PP.ID_tec, @par_tecajnica_datumtec) AS Debit,
+            dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Kredit, PP.ID_tec, @par_tecajnica_datumtec) AS Kredit,
+            dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Saldo, PP.ID_tec, @par_tecajnica_datumtec) AS Saldo,
+            dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Neto, PP.ID_tec, @par_tecajnica_datumtec) AS Neto,
+            P.Dat_Aktiv,
+            CASE WHEN vt.sif_terj in ('LOBR','OPC','DDV', 'polo') 
+            	THEN (PP.Kredit/PP.Debit) * dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Davek, PP.ID_tec, @par_tecajnica_datumtec)
+            	ELSE 0 END AS Pl_Davek,
+            CASE WHEN vt.sif_terj in ('LOBR','OPC','DDV', 'polo') 
+            	THEN (PP.Kredit/PP.Debit) * dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Neto, PP.ID_tec, @par_tecajnica_datumtec) 
+            	ELSE 0 END AS Pl_Neto,
+            CASE WHEN vt.sif_terj in ('LOBR','OPC','DDV', 'POLO') 
+            	THEN (PP.Kredit/PP.Debit) * dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Obresti, PP.ID_tec, @par_tecajnica_datumtec)
+            	ELSE 0 END AS Pl_Obresti,
+            CASE WHEN vt.sif_terj in ('LOBR','OPC','DDV', 'POLO') 			
+            	THEN (PP.Kredit/PP.Debit) * dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.RObresti, PP.ID_tec, @par_tecajnica_datumtec)
+            	ELSE 0 END AS Pl_RObrest,
+            CASE WHEN vt.sif_terj in ('LOBR','OPC','DDV', 'POLO') 
+            	THEN (PP.Kredit/PP.Debit) * dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Regist, PP.ID_tec, @par_tecajnica_datumtec)
+            	ELSE 0 END AS Pl_Regist,
+            CASE WHEN vt.sif_terj in ('LOBR','OPC','DDV', 'POLO') 			
+            	THEN (PP.Kredit/PP.Debit) * dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Marza, PP.ID_tec, @par_tecajnica_datumtec) 
+            	ELSE 0 END AS Pl_Marza,
+            CASE WHEN vt.sif_terj not in ('LOBR','OPC','DDV', 'POLO')
+            	THEN (PP.Kredit/PP.Debit) * dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Davek, PP.ID_tec, @par_tecajnica_datumtec) 
+            	ELSE 0 END AS Pl_ODavek,
+            CASE WHEN vt.sif_terj not in ('LOBR','OPC','DDV', 'POLO') 			
+            	THEN (PP.Kredit/PP.Debit) * dbo.gfn_Xchange(@par_tecajnica_tecajnica, PP.Neto+PP.Obresti+PP.Marza+PP.Robresti+PP.Regist, PP.ID_tec, @par_tecajnica_datumtec) 
+            	ELSE 0 END AS Pl_ONeto,
+            CASE WHEN (P.Status_Akt = 'D' OR P.Status_Akt  = 'N') OR (VT.Sif_Terj='OPC' AND PP.Zaprto='*') THEN 1 ELSE 0 END as Neaktivna, 
+            1 as RecordType, --1=podatki iz kartice, 2 = podatki iz ZOBR
+            PP.ID_Tec,
+            PP.Datum_Dok, p.sklic, P.status_akt, P.aneks, P.id_strm
+      FROM dbo.Planp PP 
+     INNER JOIN dbo.Partner C ON PP.ID_Kupca = C.ID_Kupca	
+     INNER JOIN dbo.Pogodba P ON PP.ID_Cont = P.ID_Cont
+     INNER JOIN dbo.Vrst_Ter VT ON PP.ID_Terj = VT.ID_Terj
+)
+

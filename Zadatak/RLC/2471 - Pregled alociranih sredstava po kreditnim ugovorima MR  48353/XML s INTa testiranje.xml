@@ -1,0 +1,66 @@
+<-- ZAKLJUČENI UGOVOR KORISTEĆI PROCESSXML -->
+<LE_contract_ccontracts_allocation_insert_update xmlns='urn:gmi:nova:credit-contracts'><is_update>false</is_update><id_cont>72750</id_cont><amount_for_allocation>8968.78</amount_for_allocation><ccontract_allocation_list><id_kredpog>0248 21</id_kredpog><amount>8968.78</amount><all_in_price_for_NPM>0.8382</all_in_price_for_NPM><all_in_price_for_NPM_zac>0.8382</all_in_price_for_NPM_zac><is_canceled>false</is_canceled></ccontract_allocation_list></LE_contract_ccontracts_allocation_insert_update>
+
+<-- AKTIVNI UGOVOR PRIJE ZAKLJUČKA  = identično kao AKTIVNI UGOVOR  -->
+{67e85e19-05c0-4e75-8efe-a30510931b9f}
+************
+<LE_contract_ccontracts_allocation_insert_update xmlns='urn:gmi:nova:credit-contracts'><is_update>false</is_update>
+<id_cont>72750</id_cont>
+<amount_for_allocation>8968.78</amount_for_allocation>
+<ccontract_allocation_list><id_kredpog>0248 21</id_kredpog>
+<amount>8968.78</amount>
+<all_in_price_for_NPM>0.8382</all_in_price_for_NPM>
+<all_in_price_for_NPM_zac>0.8382</all_in_price_for_NPM_zac>
+<is_canceled>false</is_canceled>
+</ccontract_allocation_list></LE_contract_ccontracts_allocation_insert_update>
+************
+<?xml version="1.0" encoding="utf-16"?>
+<LE_contract_ccontracts_allocation_insert_update_response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:gmi:nova:credit-contracts">
+  <id_cont>72750</id_cont>
+</LE_contract_ccontracts_allocation_insert_update_response>
+___________________________________________________
+{67e85e19-05c0-4e75-8efe-a30510931b9f}
+************
+<calculate_npm xmlns='urn:gmi:nova:leasing'>
+<sum_allocation_amount>8968.78</sum_allocation_amount>
+<ccontract_allocation_list>
+<amount>8968.78</amount>
+<all_in_price_for_NPM>0.8382</all_in_price_for_NPM>
+</ccontract_allocation_list>
+<contract_parameters>
+<id_cont>72750</id_cont>
+</contract_parameters>
+</calculate_npm>
+
+
+<-- AKTIVNI UGOVOR -->
+{67e85e19-05c0-4e75-8efe-a30510931b9f}
+************
+<LE_contract_ccontracts_allocation_insert_update xmlns='urn:gmi:nova:credit-contracts'><is_update>false</is_update>
+<id_cont>72750</id_cont>
+<amount_for_allocation>8968.78</amount_for_allocation>
+<ccontract_allocation_list><id_kredpog>0248 21</id_kredpog>
+<amount>8968.78</amount>
+<all_in_price_for_NPM>0.8382</all_in_price_for_NPM>
+<all_in_price_for_NPM_zac>0.8382</all_in_price_for_NPM_zac>
+<is_canceled>false</is_canceled>
+</ccontract_allocation_list></LE_contract_ccontracts_allocation_insert_update>
+************
+<?xml version="1.0" encoding="utf-16"?>
+<LE_contract_ccontracts_allocation_insert_update_response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:gmi:nova:credit-contracts">
+  <id_cont>72750</id_cont>
+</LE_contract_ccontracts_allocation_insert_update_response>
+___________________________________________________
+{67e85e19-05c0-4e75-8efe-a30510931b9f}
+************
+<calculate_npm xmlns='urn:gmi:nova:leasing'>
+<sum_allocation_amount>8968.78</sum_allocation_amount>
+<ccontract_allocation_list>
+<amount>8968.78</amount>
+<all_in_price_for_NPM>0.8382</all_in_price_for_NPM>
+</ccontract_allocation_list>
+<contract_parameters>
+<id_cont>72750</id_cont>
+</contract_parameters>
+</calculate_npm>
+************

@@ -1,0 +1,102 @@
+' glavni makro ki se uporablja je OSVEZI_PODATKE
+' pokliče tri procedure in ko konča reče da je vse končano
+Sub osvezi_podatke()
+    Application.Run Macro:="bilance.XLS!BRISI_IMENA"
+    Application.Run Macro:="bilance.XLS!PODATKI"
+    Application.Run Macro:="bilance.XLS!IMENA"
+    Sheets("GK").Select
+' Sheets("NAVODILA").Select
+    MsgBox "OSVEŽEVANJE JE USPEŠNO KONČANO"
+End Sub
+Sub IMENA()
+' v tej proceduri se določijo imena celicam, tako da se lahko na njih kasneje
+'sklicujemo po imenu in ne po koordinatah celice
+'tista celica ki ima debetni saldo na kontu 120 se bo imenovala D_120 in podobno
+
+    Sheets("GK").Select
+    For I = 2 To 999999
+        If Cells(I, 1).Value = "" Then
+          Exit For
+        End If
+' kumulativni debetni promet
+        celica = "=GK!R" + CStr(I) + "C2"
+        ime = "PD_" + Cells(I, 1).Value()
+        ActiveWorkbook.Names.Add Name:=ime, RefersToR1C1:=celica
+' kumulativni kreditni promet
+        celica = "=GK!R" + CStr(I) + "C3"
+        ime = "PK_" + Cells(I, 1).Value()
+        ActiveWorkbook.Names.Add Name:=ime, RefersToR1C1:=celica
+        
+' debetni saldo
+        celica = "=GK!R" + CStr(I) + "C4"
+        ime = "D_" + Cells(I, 1).Value()
+        ActiveWorkbook.Names.Add Name:=ime, RefersToR1C1:=celica
+' kreditni saldo
+        celica = "=GK!R" + CStr(I) + "C5"
+        ime = "K_" + Cells(I, 1).Value()
+        ActiveWorkbook.Names.Add Name:=ime, RefersToR1C1:=celica
+' začetno stanje debet
+        celica = "=GK!R" + CStr(I) + "C6"
+        ime = "ZD_" + Cells(I, 1).Value()
+        ActiveWorkbook.Names.Add Name:=ime, RefersToR1C1:=celica
+' začetno stanje kredit
+        celica = "=GK!R" + CStr(I) + "C7"
+        ime = "ZK_" + Cells(I, 1).Value()
+        ActiveWorkbook.Names.Add Name:=ime, RefersToR1C1:=celica
+' debetni promet
+        celica = "=GK!R" + CStr(I) + "C8"
+        ime = "PDZ_" + Cells(I, 1).Value()
+        ActiveWorkbook.Names.Add Name:=ime, RefersToR1C1:=celica
+' kreditni promet
+        celica = "=GK!R" + CStr(I) + "C9"
+        ime = "PKZ_" + Cells(I, 1).Value()
+        ActiveWorkbook.Names.Add Name:=ime, RefersToR1C1:=celica
+                
+    Next
+End Sub
+
+Sub PODATKI()
+' VGK pripravi podatke v tabelo RESULT.XLS pot in ime te datoteke
+' se nastavi v VGK. Ime in pot se mora ujemati s tistim kar je napisano  v
+' sledeči vrstici
+    Workbooks.Open Filename:=Range("GK!K2").Value + "RESULT.XLS"
+' iz odprte datoteke skopiram vse na prvi sheet tega dokumenta
+' pozneje se določijo imena in podatki bi morali biti osveženi
+
+    Cells.Select
+    Selection.Copy
+    Windows("BILANCE.XLS").Activate
+    Sheets("GK").Select
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlValues, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Range("A1").Select
+    Windows("RESULT.XLS").Activate
+    Range("A1").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    ActiveWorkbook.Close
+End Sub
+
+
+Sub brisi_imena()
+' funkcija zbriše vsa prej določena imena celicam, to se mora izvesti
+' pri vsakem osveževanju. S tem je zagotovljeno da se spremembe v kontnem planu
+' gk poznajo tudi v podatkih ki so pripravljeni za excel
+
+    On Error Resume Next
+    For J = 1 To 20
+      I = 0
+      Do While I < ActiveWorkbook.Names.Count
+          ActiveWorkbook.Names(I).Delete
+          I = I + 1
+      Loop
+      If ActiveWorkbook.Names.Count = 0 Then
+        Exit For
+      End If
+    Next
+    ActiveWorkbook.Names(I).Delete
+End Sub
+
+
+

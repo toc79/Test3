@@ -1,0 +1,37 @@
+<translations xmlns='urn:gmi:common:nova_client'>
+<!-- ServerSide Form -->
+<translation_item>
+  <location>data.le.razporeditev_placil.xml\placano_eur</location>
+  <translation>Plaćeno DOM</translation>
+</translation_item>
+<translation_item>
+  <location>data.le.razporeditev_placil.xml\plac_robresti</location>
+  <translation>Plać.PPMV</translation>
+</translation_item>
+
+<!-- FOX ClientSide Form -->
+<translation_item>
+  <location>pon_pred_odkup\pgfPonudba.Page1.lblInkaso</location>
+  <translation>CMV</translation>
+</translation_item>
+<translation_item>
+  <location>pon_pred_odkup\pgfPonudba.Page1.lblPopust</location>
+  <translation>Naknada prij.</translation>
+</translation_item>
+<translation_item>
+  <location>pon_pred_odkup\pgfPonudba.Page1.lblOdobLj</location>
+  <translation>Ostali troškovi</translation>
+</translation_item>
+<translation_item>
+  <location>pon_pred_odkup\pgfPonudba.Page1.lblIzplacZavar</location>
+  <translation>Naknada</translation>
+</translation_item>
+<translation_item>
+  <location>pon_pred_odkup\pgfPonudba.Page1.lblVracKaska</location>
+  <translation>Popust prod. cijena %</translation>
+</translation_item>
+<translation_item>
+  <location>pon_pred_odkup\pgfPonudba.Page1.lblStrSod</location>
+  <translation>Vrijednost procjene</translation>
+</translation_item>
+</translations>

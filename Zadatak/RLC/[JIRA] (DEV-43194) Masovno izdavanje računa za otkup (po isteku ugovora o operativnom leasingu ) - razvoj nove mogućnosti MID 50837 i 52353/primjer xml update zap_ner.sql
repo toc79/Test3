@@ -1,0 +1,48 @@
+{7d021a03-180f-47d2-be48-3a2698905049}
+************
+<insert_update_zap_ner xmlns='urn:gmi:nova:leasing'>
+<ali_v_os>false</ali_v_os>
+<id_cont>78783</id_cont>
+<id_dob>025060</id_dob>
+<id_zapo>N009642</id_zapo>
+<k_o></k_o>
+<kolicina>0</kolicina>
+<let_pro></let_pro>
+<m_enota></m_enota>
+<mesto_upo></mesto_upo>
+<nabav_vred>0</nabav_vred>
+<opis>testiranje HBOR OU za OL</opis>
+<opombe></opombe>
+<parcelne_st></parcelne_st>
+<prenos></prenos>
+<rabljeno>false</rabljeno>
+<ser_st></ser_st>
+<st_fakture></st_fakture>
+<st_pl_skl></st_pl_skl>
+<st_vlozka></st_vlozka>
+<status_zk>N</status_zk>
+<stopnja_am>0</stopnja_am>
+<sys_ts>512004578</sys_ts>
+<zac_amort></zac_amort>
+<co2_emission>100</co2_emission>
+<co2_unit>g/km</co2_unit>
+<oprema>
+  <id_opreme>51290</id_opreme>
+  <kom>1</kom>
+  <nabav_vred>0</nabav_vred>
+  <naziv>test</naziv>
+  <ser_st></ser_st>
+  <prodano>true</prodano>
+  <deleted>false</deleted>
+  <nv_popust_procent>0</nv_popust_procent>
+  <nv_popust_znesek>0</nv_popust_znesek>
+  <nv_brez_popusta>0</nv_brez_popusta>
+<updated_values>
+  <table_name>OPREMA</table_name>
+  <name>PRODANO</name>
+  <updated_value>true</updated_value>
+</updated_values>
+</oprema>
+<comment>e gfw</comment>
+<id_rep_category>999</id_rep_category>
+</insert_update_zap_ner>

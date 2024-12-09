@@ -1,0 +1,12 @@
+<validations>
+      <validation>
+        <validation_statement evaluator="Js">
+          <statement><![CDATA[
+               if (is_null(customer_date_of_establishment) == false && customer_date_of_establishment >= Now())
+                return false;
+                
+              return true;
+            ]]></statement>
+        </validation_statement>
+        <validation_error_message>Datum ne smije biti veći od današnjeg!!!</validation_error_message>
+      </validation>

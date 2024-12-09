@@ -1,0 +1,33 @@
+<insert_update_dokument xmlns="urn:gmi:nova:leasing">
+<dokument>
+<dat_poprave>2023-03-09T11:58:20.000</dat_poprave>
+<datum>2023-03-09T00:00:00.000</datum>
+<datum_dok>2023-03-09T00:00:00.000</datum_dok>
+<dok_in_safe>false</dok_in_safe>
+<id_cont>56643</id_cont>
+<id_obl_zav>NI</id_obl_zav>
+<id_zapo></id_zapo>
+<ima>false</ima>
+<is_elligible>false</is_elligible>
+<kolicina>1</kolicina>
+<opis>NEMA INTERKALARNIH KAMATA</opis>
+<opis1></opis1>
+<opombe></opombe>
+<opravi_sam>2</opravi_sam>
+<popravil>g_tomislav</popravil>
+<potrebno>true</potrebno>
+<rang_hipo>1</rang_hipo>
+<reg_stev></reg_stev>
+<st_nalepke></st_nalepke>
+<st_vink></st_vink>
+<status_akt>A</status_akt>
+<status_zk></status_zk>
+<stevilka></stevilka>
+<tip_cen></tip_cen>
+<vnesel>g_tomislav</vnesel>
+<vrednost>0</vrednost>
+<vrst_red_d></vrst_red_d>
+<vrsta></vrsta>
+<zav_je_on>false</zav_je_on>
+</dokument>
+</insert_update_dokument>	

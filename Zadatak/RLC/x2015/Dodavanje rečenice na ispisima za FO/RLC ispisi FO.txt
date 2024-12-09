@@ -1,0 +1,37 @@
+Račun za aktivaciju ugovora (FL) (KK_FAK i KK_FAKTO) = 0,5*42
+Računi za intekalarne kamate i za trošak obrade (ispisuje se iz računa za rate) = Već smo poslali ponudu za page za ratu, a za ovaj drugo page NOT_LOBR da bude free? Mogo bi dodati u ponudu 0,5*79€, jer smo ranije samo napisali iznos u mailu (nismo slali ponudu).
+Računi za zatezene kamate 0,5*79
+Računi za valutne klauzule za pozitivnu razliku (koliko vidim moglo bi se napraviti prema polju ) 0,5*79
+Opći račun (obični i paketni) 0,5*79
+GL Izlazni račun 0,5*42
+
+
+FO_OVRHA
+
+RF_FO_OVRHA
+
+select * from zap_reg where id_cont in (select  id_cont from pogodba where status_akt ='A' and nacin_leas in ('F1','F2','F3') and id_kupca in (select id_kupca from partner where vr_osebe in ('FO','F1')))
+
+
+
+, CASE WHEN a.vr_osebe = 'FO' or a.vr_osebe = 'F1' THEN 1 ELSE 0 END as je_FO
+
+Select 	a.p_podjetje,
+	a.p_dav_stev,
+	a.p_naslov,
+	a.p_kraj,
+	a.p_direktor,
+	a.p_posta,
+	a.p_emso,
+	a.p_reg_stev,
+	a.p_tel,
+	a.p_fax,
+	a.p_email,
+	a.p_http,
+	a.p_zrac,
+	CASE WHEN a.dom_valuta = 'HRK' THEN 'KN' ELSE a.dom_valuta END as dom_valuta,	
+	b.meja_tr
+	, c.data as fo_ovrha
+From dbo.nastavit a, dbo.loc_nast b
+left join dbo.nova_resources c on c.id_resource='FO_OVRHA' and c.active=1
+

@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Tomislav Krnjak</Author>
+  <LastAuthor>Tomislav Krnjak</LastAuthor>
+  <Created>2016-03-17T07:19:23Z</Created>
+  <LastSaved>2019-04-30T12:25:13Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12810</WindowHeight>
+  <WindowWidth>27480</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat ss:Format="dd/mm/yyyy;@"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Italic="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Italic="1"/>
+   <Interior ss:Color="#FFC000" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFC000" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFC000" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1" ss:Italic="1"/>
+   <Interior ss:Color="#FFC000" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="32" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="51"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="35.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="56.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:StyleID="s64" ss:Width="59.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="56.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="54.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="105"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="49.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="36.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s63" ss:Width="63"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="40.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="56.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Span="1"/>
+   <Column ss:Index="19" ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="56.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="66.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="60.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="69.75" ss:Span="2"/>
+   <Column ss:Index="26" ss:StyleID="s63" ss:Width="48.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="69.75"/>
+   <Column ss:StyleID="s63" ss:Width="54.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="69.75" ss:Span="3"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25" ss:Hidden="1" ss:StyleID="s67">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">tip_knjige</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">tip_rac</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ddv_date</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">njihova_st</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">datum</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">valuta</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">id_kupca</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">tr</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">paym_ext_code</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sklic1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sklic2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">id_pog</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">id_strm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">gl_tipi_rac</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">opisdok</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">datum_knj</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">konto</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">prehkonto</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">veza</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">vrsta_rac</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">vr_rac_veza</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">projectnumber</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">kredit</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">brez_davka</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">neobdav</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">id_dav_st</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">kredit_neto1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">id_dav_st2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">kredit_neto2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ni_vracila</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ni_vracd</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">davek_dom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60.75" ss:StyleID="s69">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Tip knjige</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Tip</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Datum PDV-a</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Njihov br.</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Dat. izdavanja</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Valuta</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Dobavljač</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">TRR</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Kod namjene</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Model</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Poziv</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Ugovor</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Mj. Troška</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Vrsta računa</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Opis</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Datum dok.</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Konto</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Prijelazni konto</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Veza</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Tip pov. dokumenta</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Broj povezanog dokumenta</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Projekt</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Vrijednost računa</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Oslobođen promet</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Neoporeziv</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Općenita stopa</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Osnovica - Općenita stopa</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Niža stopa</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Osnovica - Niža stopa</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">PDV koji se nikad ne odbija</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">PDV koji se ne odbija zbog djelatnosti</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">PDV domaće nabave</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VRAC</Data></Cell>
+    <Cell><Data ss:Type="String">R1</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-04-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">GMC uvoz</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-04-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-04-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">000012</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">0010</Data></Cell>
+    <Cell><Data ss:Type="String">13</Data></Cell>
+    <Cell><Data ss:Type="String">Uvoz</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2019-04-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">220001</Data></Cell>
+    <Cell ss:Index="23"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="String">25</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:Index="32"><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>1</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C23:R2C32,R1C1:R2C16</Range>
+   <Qualifier>Greater</Qualifier>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R3C27:R65536C27,R3C29:R65536C32,R3C23:R65536C25</Range>
+   <Type>Decimal</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>-99999999999999900000</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R3C2:R65536C2</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;R1,R2&quot;</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R3C16:R65536C16,R3C3:R65536C3,R3C5:R65536C6</Range>
+   <Type>Date</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>1</Value>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

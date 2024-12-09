@@ -1,0 +1,32 @@
+1634 - Provjera izračuna EKS na Ponudi/Kalkulaciji i na ISPISU Ponude
+http://gmcv03/support/maintenance.aspx?Mode=Read&Source=3&Document=37739&ID=37739
+Da li smo ovdje nešto podešavali uopće?
+TK
+Može se refresh-ati.
+Podešen je Tip dat. dok. tak da se to može refreshati. Ostale dorade z akoje ćemo slati ponudu nisu rađene.
+
+
+
+
+
+1712 - NOVA PORTAL - Leasing ponuda - OSTATAK VRIJEDNOSTI
+http://gmcv03/support/maintenance.aspx?Mode=Read&Source=3&Document=37862&ID=37862
+Portal, ne smije se gaziti
+TK
+Napravio bck ispisa.
+
+
+
+
+loForm = GF_GetFormObject("frmKalkulacija")
+
+IF ISNULL(loForm) THEN 
+ RETURN
+ENDIF
+
+loForm.pgfSve.pgPon.pgfPon.pgOsn.txtZap_2ob.obvezen = .T.
+loForm.pgfSve.pgPon.pgfPon.pgOsn.txtZap_2ob.BackColor = 8454143
+
+loForm.pgfSve.pgPon.pgfPon.pgOsn.cmbDatumDokTip.obvezen = .T.
+loForm.pgfSve.pgPon.pgfPon.pgOsn.cmbDatumDokTip.BackColor = 8454143
+

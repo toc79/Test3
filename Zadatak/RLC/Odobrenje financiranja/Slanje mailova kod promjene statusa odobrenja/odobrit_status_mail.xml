@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<prepare xmlns="urn:gmi:nova:xdoc">
+  <xdoc_template_id>17</xdoc_template_id>
+  <!--
+  <parameter>
+    <name></name>
+    <value></value>
+  </parameter>
+  -->
+  <perform_commit_automatically>true</perform_commit_automatically>
+</prepare>

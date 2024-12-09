@@ -1,0 +1,1 @@
+nije potrebna , kursor _pogodba je vidljiv i u after save

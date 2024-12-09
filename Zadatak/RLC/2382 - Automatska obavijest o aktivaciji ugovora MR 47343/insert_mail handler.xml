@@ -1,0 +1,25 @@
+	select 
+		'<plugin_list xmlns="urn:gmi:nova:core"></plugin_list>' as xml, 
+		cast(1 as bit) as via_queue,
+		300 as delay,
+		cast(0 as bit) as via_esb,
+		'nova.bpm' as esb_target
+	
+	
+--<bcc></bcc> NIJE OBAVEZAN
+
+<insert_mail xmlns="urn:gmi:nova:core"><from>tomislav.krnjak@gemicro.hr</from><to>tomislav.krnjak@gemicro.hr</to><cc></cc><subject>Test INSERT_MAIL</subject><body>Ugovor je aktiviran.</body><body_is_html>true</body_is_html><mail_attachments></mail_attachments><send_immediately>true</send_immediately></insert_mail>
+
+RADI 
+<insert_mail xmlns="urn:gmi:nova:core"><from>tomislav.krnjak@gemicro.hr</from><to>tomislav.krnjak@gemicro.hr</to><cc></cc><subject>Test INSERT_MAIL</subject><body>Aktiviranje ugovora</body><body_is_html>true</body_is_html><send_immediately>true</send_immediately></insert_mail>
+
+
+
+Poštovana/i, 
+
+možemo programirati takvu funkcionalnost.
+Oko 
+1) grupe korisnika, da li se ti korisnici nalaze u nekoj od Roli  (Roles u admin konzoli) ili će se takva lista zapisati u npr. posebni šifrant kako bi ih vi mogli sami uređivati. Potrebno je dakle definirati nam to, cc i bcc email adrese.
+2) možemo podesiti takav Subject
+3) Tekst maila (body) 
+Molim da nam pošaljete tekst/sadržaj tijela teksta

@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Iva Glavina Konc</Author>
+  <LastAuthor>Iva Glavina Konc</LastAuthor>
+  <Created>2023-11-07T08:52:22Z</Created>
+  <LastSaved>2023-12-07T09:41:56Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_Enabled dt:dt="string">true</MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_Enabled>
+  <MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_SetDate dt:dt="string">2023-12-06T21:43:23Z</MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_SetDate>
+  <MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_Method dt:dt="string">Privileged</MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_Method>
+  <MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_Name dt:dt="string">Internal</MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_Name>
+  <MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_SiteId dt:dt="string">9b511fda-f0b1-43a5-b06e-1e720f64520a</MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_SiteId>
+  <MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_ActionId dt:dt="string">f8b2e08a-c038-43d9-8bc8-7323ab19eee9</MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_ActionId>
+  <MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_ContentBits dt:dt="string">0</MSIP_Label_2a6524ed-fb1a-49fd-bafe-15c5e5ffd047_ContentBits>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17115</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>600</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s63">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s64">
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Splošne fakture">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.4375">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="72"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="97.5"/>
+   <Column ss:StyleID="s64" ss:Width="78.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="52.5"/>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">id_pog</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">id_kupca</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">datum_dok</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">dni_zap</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">neto</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">robresti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Broj ugovora</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Šifra partnera</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Datum dokumenta</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Dana dospjeća</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Neto iznos</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">PPMV</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">68160/22</Data></Cell>
+    <Cell><Data ss:Type="String">003082</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2023-12-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">8382.98</Data></Cell>
+    <Cell><Data ss:Type="Number">108.11</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>1</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

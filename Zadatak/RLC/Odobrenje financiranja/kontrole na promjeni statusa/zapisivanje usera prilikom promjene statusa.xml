@@ -1,0 +1,291 @@
+{c70a31b9-559c-4935-839f-e2e9ab6ffc24}
+************
+<list_history_request xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:gmi:nova:workflow"><document_id>3</document_id><status_change_only>0</status_change_only></list_history_request>
+************
+<?xml version="1.0" encoding="utf-16"?>
+<list_history_request_response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:gmi:nova:workflow">
+  <history_entries>
+    <id_history>5</id_history>
+    <id_document>3</id_document>
+    <date_entered>2013-11-08T16:27:56.737</date_entered>
+    <date_started>2013-11-08T16:27:56.737</date_started>
+    <date_planned>2013-11-09T00:00:00</date_planned>
+    <user_entered>g_tomislav</user_entered>
+    <user_entered_full_name>Tomislav Krnjak                                                                                                                                       </user_entered_full_name>
+    <user_old>g_tomislav</user_old>
+    <user_old_full_name>Tomislav Krnjak                                                                                                                                       </user_old_full_name>
+    <user_new>damirs    </user_new>
+    <user_new_full_name>Damir Sirovec                                                                                                                                         </user_new_full_name>
+    <id_status_old>VNS</id_status_old>
+    <id_status_old_title>Unos</id_status_old_title>
+    <id_status_old_description>Unos novih odobrenja</id_status_old_description>
+    <id_status_old_check_assigner>false</id_status_old_check_assigner>
+    <id_status_old_is_start>true</id_status_old_is_start>
+    <id_status_old_is_end>false</id_status_old_is_end>
+    <id_status_new>BDO</id_status_new>
+    <id_status_new_title>BOARD</id_status_new_title>
+    <id_status_new_description>Uprava - 2 potpisa odobrenja</id_status_new_description>
+    <id_status_new_check_assigner>false</id_status_new_check_assigner>
+    <id_status_new_is_start>false</id_status_new_is_start>
+    <id_status_new_is_end>false</id_status_new_is_end>
+    <comment>wef we</comment>
+    <sys_data />
+    <sys_flag />
+    <comment_short>wef we</comment_short>
+  </history_entries>
+  <history_entries>
+    <id_history>4</id_history>
+    <id_document>3</id_document>
+    <date_entered>2013-11-08T16:27:40.823</date_entered>
+    <date_started>2013-11-08T16:27:40.823</date_started>
+    <date_ended>2013-11-08T16:27:56.737</date_ended>
+    <user_entered>g_tomislav</user_entered>
+    <user_entered_full_name>Tomislav Krnjak                                                                                                                                       </user_entered_full_name>
+    <user_old>          </user_old>
+    <user_old_full_name>                                                                                                                                                      </user_old_full_name>
+    <user_new>g_tomislav</user_new>
+    <user_new_full_name>Tomislav Krnjak                                                                                                                                       </user_new_full_name>
+    <id_status_new>VNS</id_status_new>
+    <id_status_new_title>Unos</id_status_new_title>
+    <id_status_new_description>Unos novih odobrenja</id_status_new_description>
+    <id_status_new_check_assigner>false</id_status_new_check_assigner>
+    <id_status_new_is_start>true</id_status_new_is_start>
+    <id_status_new_is_end>false</id_status_new_is_end>
+    <comment />
+    <sys_data />
+    <sys_flag />
+    <comment_short />
+  </history_entries>
+</list_history_request_response>
+___________________________________________________
+
+___________________________________________________
+{c70a31b9-559c-4935-839f-e2e9ab6ffc24}
+************
+<list_history_request xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:gmi:nova:workflow"><document_id>3</document_id><status_change_only>0</status_change_only></list_history_request>
+************
+<?xml version="1.0" encoding="utf-16"?>
+<list_history_request_response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:gmi:nova:workflow">
+  <history_entries>
+    <id_history>5</id_history>
+    <id_document>3</id_document>
+    <date_entered>2013-11-08T16:27:56.737</date_entered>
+    <date_started>2013-11-08T16:27:56.737</date_started>
+    <date_planned>2013-11-09T00:00:00</date_planned>
+    <user_entered>g_tomislav</user_entered>
+    <user_entered_full_name>Tomislav Krnjak                                                                                                                                       </user_entered_full_name>
+    <user_old>g_tomislav</user_old>
+    <user_old_full_name>Tomislav Krnjak                                                                                                                                       </user_old_full_name>
+    <user_new>damirs    </user_new>
+    <user_new_full_name>Damir Sirovec                                                                                                                                         </user_new_full_name>
+    <id_status_old>VNS</id_status_old>
+    <id_status_old_title>Unos</id_status_old_title>
+    <id_status_old_description>Unos novih odobrenja</id_status_old_description>
+    <id_status_old_check_assigner>false</id_status_old_check_assigner>
+    <id_status_old_is_start>true</id_status_old_is_start>
+    <id_status_old_is_end>false</id_status_old_is_end>
+    <id_status_new>BDO</id_status_new>
+    <id_status_new_title>BOARD</id_status_new_title>
+    <id_status_new_description>Uprava - 2 potpisa odobrenja</id_status_new_description>
+    <id_status_new_check_assigner>false</id_status_new_check_assigner>
+    <id_status_new_is_start>false</id_status_new_is_start>
+    <id_status_new_is_end>false</id_status_new_is_end>
+    <comment>wef we</comment>
+    <sys_data />
+    <sys_flag />
+    <comment_short>wef we</comment_short>
+  </history_entries>
+  <history_entries>
+    <id_history>4</id_history>
+    <id_document>3</id_document>
+    <date_entered>2013-11-08T16:27:40.823</date_entered>
+    <date_started>2013-11-08T16:27:40.823</date_started>
+    <date_ended>2013-11-08T16:27:56.737</date_ended>
+    <user_entered>g_tomislav</user_entered>
+    <user_entered_full_name>Tomislav Krnjak                                                                                                                                       </user_entered_full_name>
+    <user_old>          </user_old>
+    <user_old_full_name>                                                                                                                                                      </user_old_full_name>
+    <user_new>g_tomislav</user_new>
+    <user_new_full_name>Tomislav Krnjak                                                                                                                                       </user_new_full_name>
+    <id_status_new>VNS</id_status_new>
+    <id_status_new_title>Unos</id_status_new_title>
+    <id_status_new_description>Unos novih odobrenja</id_status_new_description>
+    <id_status_new_check_assigner>false</id_status_new_check_assigner>
+    <id_status_new_is_start>true</id_status_new_is_start>
+    <id_status_new_is_end>false</id_status_new_is_end>
+    <comment />
+    <sys_data />
+    <sys_flag />
+    <comment_short />
+  </history_entries>
+</list_history_request_response>
+___________________________________________________
+
+************
+<list_history_request xmlns='urn:gmi:nova:workflow'>
+<document_id>3</document_id>
+<status_change_only>0</status_change_only>
+</list_history_request>
+************
+<?xml version="1.0" encoding="utf-16"?>
+<list_history_request_response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:gmi:nova:workflow">
+  <history_entries>
+    <id_history>5</id_history>
+    <id_document>3</id_document>
+    <date_entered>2013-11-08T16:27:56.737</date_entered>
+    <date_started>2013-11-08T16:27:56.737</date_started>
+    <date_planned>2013-11-09T00:00:00</date_planned>
+    <user_entered>g_tomislav</user_entered>
+    <user_entered_full_name>Tomislav Krnjak                                                                                                                                       </user_entered_full_name>
+    <user_old>g_tomislav</user_old>
+    <user_old_full_name>Tomislav Krnjak                                                                                                                                       </user_old_full_name>
+    <user_new>damirs    </user_new>
+    <user_new_full_name>Damir Sirovec                                                                                                                                         </user_new_full_name>
+    <id_status_old>VNS</id_status_old>
+    <id_status_old_title>Unos</id_status_old_title>
+    <id_status_old_description>Unos novih odobrenja</id_status_old_description>
+    <id_status_old_check_assigner>false</id_status_old_check_assigner>
+    <id_status_old_is_start>true</id_status_old_is_start>
+    <id_status_old_is_end>false</id_status_old_is_end>
+    <id_status_new>BDO</id_status_new>
+    <id_status_new_title>BOARD</id_status_new_title>
+    <id_status_new_description>Uprava - 2 potpisa odobrenja</id_status_new_description>
+    <id_status_new_check_assigner>false</id_status_new_check_assigner>
+    <id_status_new_is_start>false</id_status_new_is_start>
+    <id_status_new_is_end>false</id_status_new_is_end>
+    <comment>wef we</comment>
+    <sys_data />
+    <sys_flag />
+    <comment_short>wef we</comment_short>
+  </history_entries>
+  <history_entries>
+    <id_history>4</id_history>
+    <id_document>3</id_document>
+    <date_entered>2013-11-08T16:27:40.823</date_entered>
+    <date_started>2013-11-08T16:27:40.823</date_started>
+    <date_ended>2013-11-08T16:27:56.737</date_ended>
+    <user_entered>g_tomislav</user_entered>
+    <user_entered_full_name>Tomislav Krnjak                                                                                                                                       </user_entered_full_name>
+    <user_old>          </user_old>
+    <user_old_full_name>                                                                                                                                                      </user_old_full_name>
+    <user_new>g_tomislav</user_new>
+    <user_new_full_name>Tomislav Krnjak                                                                                                                                       </user_new_full_name>
+    <id_status_new>VNS</id_status_new>
+    <id_status_new_title>Unos</id_status_new_title>
+    <id_status_new_description>Unos novih odobrenja</id_status_new_description>
+    <id_status_new_check_assigner>false</id_status_new_check_assigner>
+    <id_status_new_is_start>true</id_status_new_is_start>
+    <id_status_new_is_end>false</id_status_new_is_end>
+    <comment />
+    <sys_data />
+    <sys_flag />
+    <comment_short />
+  </history_entries>
+</list_history_request_response>
+___________________________________________________
+
+<?xml version="1.0" encoding="utf-16"?>
+<list_history_request_response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:gmi:nova:workflow">
+  <history_entries>
+    <id_history>5</id_history>
+    <id_document>3</id_document>
+    <date_entered>2013-11-08T16:27:56.737</date_entered>
+    <date_started>2013-11-08T16:27:56.737</date_started>
+    <date_planned>2013-11-09T00:00:00</date_planned>
+    <user_entered>g_tomislav</user_entered>
+    <user_entered_full_name>Tomislav Krnjak                                                                                                                                       </user_entered_full_name>
+    <user_old>g_tomislav</user_old>
+    <user_old_full_name>Tomislav Krnjak                                                                                                                                       </user_old_full_name>
+    <user_new>damirs    </user_new>
+    <user_new_full_name>Damir Sirovec                                                                                                                                         </user_new_full_name>
+    <id_status_old>VNS</id_status_old>
+    <id_status_old_title>Unos</id_status_old_title>
+    <id_status_old_description>Unos novih odobrenja</id_status_old_description>
+    <id_status_old_check_assigner>false</id_status_old_check_assigner>
+    <id_status_old_is_start>true</id_status_old_is_start>
+    <id_status_old_is_end>false</id_status_old_is_end>
+    <id_status_new>BDO</id_status_new>
+    <id_status_new_title>BOARD</id_status_new_title>
+    <id_status_new_description>Uprava - 2 potpisa odobrenja</id_status_new_description>
+    <id_status_new_check_assigner>false</id_status_new_check_assigner>
+    <id_status_new_is_start>false</id_status_new_is_start>
+    <id_status_new_is_end>false</id_status_new_is_end>
+    <comment>wef we</comment>
+    <sys_data />
+    <sys_flag />
+    <comment_short>wef we</comment_short>
+  </history_entries>
+  <history_entries>
+    <id_history>4</id_history>
+    <id_document>3</id_document>
+    <date_entered>2013-11-08T16:27:40.823</date_entered>
+    <date_started>2013-11-08T16:27:40.823</date_started>
+    <date_ended>2013-11-08T16:27:56.737</date_ended>
+    <user_entered>g_tomislav</user_entered>
+    <user_entered_full_name>Tomislav Krnjak                                                                                                                                       </user_entered_full_name>
+    <user_old>          </user_old>
+    <user_old_full_name>                                                                                                                                                      </user_old_full_name>
+    <user_new>g_tomislav</user_new>
+    <user_new_full_name>Tomislav Krnjak                                                                                                                                       </user_new_full_name>
+    <id_status_new>VNS</id_status_new>
+    <id_status_new_title>Unos</id_status_new_title>
+    <id_status_new_description>Unos novih odobrenja</id_status_new_description>
+    <id_status_new_check_assigner>false</id_status_new_check_assigner>
+    <id_status_new_is_start>true</id_status_new_is_start>
+    <id_status_new_is_end>false</id_status_new_is_end>
+    <comment />
+    <sys_data />
+    <sys_flag />
+    <comment_short />
+  </history_entries>
+</list_history_request_response>
+___________________________________________________
+
+{c70a31b9-559c-4935-839f-e2e9ab6ffc24}
+************
+<push_request xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:gmi:nova:workflow">
+<document_id>3</document_id>
+<status_new>BDO</status_new>
+<user_entered>g_tomislav</user_entered>
+<date_wf_planned>2013-11-09T00:00:00.000</date_wf_planned>
+<user_assignee>damirs</user_assignee>
+<comment>wef we</comment>
+</push_request>
+
+************
+<?xml version="1.0" encoding="utf-16"?>
+<push_request_response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:gmi:nova:workflow">
+  <document_id>3</document_id>
+</push_request_response>
+___________________________________________________
+{c70a31b9-559c-4935-839f-e2e9ab6ffc24}
+************
+<list_history_request xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:gmi:nova:workflow"><document_id>3</document_id><status_change_only>0</status_change_only></list_history_request>
+************
+<?xml version="1.0" encoding="utf-16"?>
+<list_history_request_response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:gmi:nova:workflow">
+  <history_entries>
+    <id_history>4</id_history>
+    <id_document>3</id_document>
+    <date_entered>2013-11-08T16:27:40.823</date_entered>
+    <date_started>2013-11-08T16:27:40.823</date_started>
+    <user_entered>g_tomislav</user_entered>
+    <user_entered_full_name>Tomislav Krnjak                                                                                                                                       </user_entered_full_name>
+    <user_old>          </user_old>
+    <user_old_full_name>                                                                                                                                                      </user_old_full_name>
+    <user_new>g_tomislav</user_new>
+    <user_new_full_name>Tomislav Krnjak                                                                                                                                       </user_new_full_name>
+    <id_status_new>VNS</id_status_new>
+    <id_status_new_title>Unos</id_status_new_title>
+    <id_status_new_description>Unos novih odobrenja</id_status_new_description>
+    <id_status_new_check_assigner>false</id_status_new_check_assigner>
+    <id_status_new_is_start>true</id_status_new_is_start>
+    <id_status_new_is_end>false</id_status_new_is_end>
+    <comment />
+    <sys_data />
+    <sys_flag />
+    <comment_short />
+  </history_entries>
+</list_history_request_response>
+___________________________________________________
+_________________

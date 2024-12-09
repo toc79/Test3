@@ -1,0 +1,2 @@
+- {PageNumber} - PageNofM {PageNofM}; TotalPageCount {TotalPageCount} {IIF(TotalPageCount % 2 == 0, "Paran", "Neparan")}
+- {PageNumberThrough} - PageNofMThrough {PageNofMThrough}; TotalPageCountThrough {TotalPageCountThrough} {IIF(TotalPageCountThrough % 2 == 0, "Paran", "Neparan")} Modus {TotalPageCountThrough % 2}

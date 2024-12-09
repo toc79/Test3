@@ -1,0 +1,43 @@
+
+------------------------------------------------------------------------------------------------------------
+-- Function for getting data for PP_Izbor, search type 3 - preplacila
+-- 
+--
+-- History:
+-- 28.11.2003 Muri; created
+-- 20.03.2004 Matjaz; Changes due to id_cont 2 PK transition
+-- 10.06.2004 Muri; changed that parameter id_pog is used instead of id_cont
+-- 1.9.2004 Muri, spremenil char in varchar(X) v varchar(8000), 
+------------------------------------------------------------------------------------------------------------
+CREATE  FUNCTION [dbo].[gfn_Report_Advance] (
+@parPogodba as varchar(8000),
+@parPartner as varchar(6)
+)
+RETURNS decimal(18,2)
+AS
+BEGIN 
+DECLARE @Result decimal(18,2)
+IF LEN(@parPartner)=0 
+	
+	BEGIN
+	SET @Result = 	(
+			SELECT SUM(Saldo)
+			FROM	dbo.Avansi A JOIN 
+				dbo.Placila PL ON A.ID_Plac = PL.ID_Plac
+			WHERE  ID_Cont = dbo.gfn_ID_Cont4ID_Pog(@parPogodba) 	--[Strko] -- WHERE  ID_Pog = @parPogodba 
+			)
+	END
+ELSE
+	BEGIN
+	SET @Result = 	(
+			SELECT SUM(Saldo)
+			FROM	dbo.Avansi A JOIN 
+				dbo.Placila PL ON A.ID_Plac = PL.ID_Plac
+			WHERE ID_kupca = @parPartner 
+			)
+	END
+	RETURN @Result
+	
+END
+
+

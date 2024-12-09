@@ -1,0 +1,399 @@
+<INSTANCE instance_id="1778" process_id="zspnft_parent_rlhr" process_inactive="0" version_id="55" version_inactive="0" version_version="1.5.0">
+  <DATA_FIELDS>
+    <DATA_FIELD id="239231" val_str="Ne" val_text="" is_set="1" def_name="assigne_employment2" def_type="enum" />
+    <DATA_FIELD id="239232" val_str="" val_text="" is_set="1" def_name="assignee_address" def_type="string" />
+    <DATA_FIELD id="239233" val_text="" is_set="0" def_name="assignee_address_doubtful" def_type="enum" />
+    <DATA_FIELD id="239234" val_text="" is_set="0" def_name="assignee_address_doubtful2" def_type="enum" />
+    <DATA_FIELD id="239235" val_str="" val_text="" is_set="1" def_name="assignee_address2" def_type="string" />
+    <DATA_FIELD id="239236" val_text="" is_set="0" def_name="assignee_birth_date" def_type="date" />
+    <DATA_FIELD id="239237" val_text="" is_set="0" def_name="assignee_birth_date2" def_type="date" />
+    <DATA_FIELD id="239238" val_str="" val_text="" is_set="1" def_name="assignee_birthplace" def_type="string" />
+    <DATA_FIELD id="239239" val_str="" val_text="" is_set="1" def_name="assignee_birthplace2" def_type="string" />
+    <DATA_FIELD id="239240" val_str="" val_text="" is_set="1" def_name="assignee_country" def_type="enum" />
+    <DATA_FIELD id="239241" val_text="" is_set="0" def_name="assignee_country_doubtful" def_type="string" />
+    <DATA_FIELD id="239242" val_text="" is_set="0" def_name="assignee_country_doubtful2" def_type="string" />
+    <DATA_FIELD id="239243" val_str="" val_text="" is_set="1" def_name="assignee_country2" def_type="enum" />
+    <DATA_FIELD id="239244" val_str="" val_text="" is_set="1" def_name="assignee_desc" def_type="string" />
+    <DATA_FIELD id="239245" val_text="" is_set="0" def_name="assignee_desc_child_process_id" def_type="int" />
+    <DATA_FIELD id="239246" val_text="" is_set="0" def_name="assignee_desc_child_process_id2" def_type="int" />
+    <DATA_FIELD id="239247" val_text="" is_set="0" def_name="assignee_desc_doubtful" def_type="enum" />
+    <DATA_FIELD id="239248" val_text="" is_set="0" def_name="assignee_desc_doubtful2" def_type="enum" />
+    <DATA_FIELD id="239249" val_str="false" val_text="" is_set="1" def_name="assignee_desc_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239250" val_str="false" val_text="" is_set="1" def_name="assignee_desc_is_pio2" def_type="boolean" />
+    <DATA_FIELD id="239251" val_str="" val_text="" is_set="1" def_name="assignee_desc2" def_type="string" />
+    <DATA_FIELD id="239252" val_str="" val_text="" is_set="1" def_name="assignee_gender" def_type="string" />
+    <DATA_FIELD id="239253" val_str="" val_text="" is_set="1" def_name="assignee_gender2" def_type="string" />
+    <DATA_FIELD id="239254" val_text="" is_set="0" def_name="assignee_nova_id1" def_type="string" />
+    <DATA_FIELD id="239255" val_text="" is_set="0" def_name="assignee_nova_id2" def_type="string" />
+    <DATA_FIELD id="239256" val_text="" is_set="0" def_name="assignee_nova1" def_type="boolean" />
+    <DATA_FIELD id="239257" val_text="" is_set="0" def_name="assignee_nova2" def_type="boolean" />
+    <DATA_FIELD id="239258" val_str="" val_text="" is_set="1" def_name="assignee_oib" def_type="string" />
+    <DATA_FIELD id="239259" val_str="" val_text="" is_set="1" def_name="assignee_oib2" def_type="string" />
+    <DATA_FIELD id="239260" val_text="" is_set="0" def_name="assignee_personal_doc_date" def_type="date" />
+    <DATA_FIELD id="239261" val_text="" is_set="0" def_name="assignee_personal_doc_date2" def_type="date" />
+    <DATA_FIELD id="239262" val_str="" val_text="" is_set="1" def_name="assignee_personal_doc_department" def_type="string" />
+    <DATA_FIELD id="239263" val_str="" val_text="" is_set="1" def_name="assignee_personal_doc_department2" def_type="string" />
+    <DATA_FIELD id="239230" val_str="Ne" val_text="" is_set="1" def_name="assigne_employment" def_type="enum" />
+    <DATA_FIELD id="239229" val_str="false" val_text="" is_set="1" def_name="ask_fo_for_sp" def_type="boolean" />
+    <DATA_FIELD id="239228" val_text="" is_set="0" def_name="aproval_needed" def_type="enum" />
+    <DATA_FIELD id="239264" val_str="" val_text="" is_set="1" def_name="assignee_personal_doc_id" def_type="string" />
+    <DATA_FIELD id="239265" val_str="" val_text="" is_set="1" def_name="assignee_personal_doc_id2" def_type="string" />
+    <DATA_FIELD id="239266" val_str="" val_text="" is_set="1" def_name="assignee_personal_doc_type" def_type="string" />
+    <DATA_FIELD id="239267" val_str="" val_text="" is_set="1" def_name="assignee_personal_doc_type2" def_type="string" />
+    <DATA_FIELD id="239268" val_str="" val_text="" is_set="1" def_name="assignee_place" def_type="string" />
+    <DATA_FIELD id="239269" val_str="" val_text="" is_set="1" def_name="assignee_place2" def_type="string" />
+    <DATA_FIELD id="239270" val_str="" val_text="" is_set="1" def_name="assignee_temporary_address" def_type="string" />
+    <DATA_FIELD id="239271" val_text="" is_set="0" def_name="assignee_temporary_address_doubtful" def_type="enum" />
+    <DATA_FIELD id="239272" val_text="" is_set="0" def_name="assignee_temporary_address_doubtful2" def_type="enum" />
+    <DATA_FIELD id="239273" val_str="" val_text="" is_set="1" def_name="assignee_temporary_address2" def_type="string" />
+    <DATA_FIELD id="239274" val_str="" val_text="" is_set="1" def_name="assignee_temporary_country" def_type="enum" />
+    <DATA_FIELD id="239275" val_text="" is_set="0" def_name="assignee_temporary_country_doubtful" def_type="string" />
+    <DATA_FIELD id="239276" val_text="" is_set="0" def_name="assignee_temporary_country_doubtful2" def_type="string" />
+    <DATA_FIELD id="239277" val_str="" val_text="" is_set="1" def_name="assignee_temporary_country2" def_type="enum" />
+    <DATA_FIELD id="239278" val_str="" val_text="" is_set="1" def_name="assignee_temporary_place" def_type="string" />
+    <DATA_FIELD id="239279" val_str="" val_text="" is_set="1" def_name="assignee_temporary_place2" def_type="string" />
+    <DATA_FIELD id="239280" val_str="" val_text="" is_set="1" def_name="assignee_work_place" def_type="string" />
+    <DATA_FIELD id="239281" val_str="" val_text="" is_set="1" def_name="assignee_work_place2" def_type="string" />
+    <DATA_FIELD id="239282" val_str="Ne" val_text="" is_set="1" def_name="audit" def_type="enum" />
+    <DATA_FIELD id="239283" val_str="" val_text="" is_set="1" def_name="audit_company" def_type="string" />
+    <DATA_FIELD id="239284" val_str="" val_text="" is_set="1" def_name="audit_year" def_type="string" />
+    <DATA_FIELD id="239285" val_str="3" val_text="" is_set="1" def_name="calculated_mark" def_type="string" />
+    <DATA_FIELD id="239286" val_str="3" val_text="" is_set="1" def_name="changed_mark" def_type="enum" />
+    <DATA_FIELD id="239287" val_str="Ne" val_text="" is_set="1" def_name="consolidation" def_type="enum" />
+    <DATA_FIELD id="239288" val_str="" val_text="" is_set="1" def_name="consolidation_address1" def_type="string" />
+    <DATA_FIELD id="239289" val_text="" is_set="0" def_name="consolidation_address1_doubtful" def_type="enum" />
+    <DATA_FIELD id="239290" val_str="" val_text="" is_set="1" def_name="consolidation_address2" def_type="string" />
+    <DATA_FIELD id="239291" val_text="" is_set="0" def_name="consolidation_address2_doubtful" def_type="enum" />
+    <DATA_FIELD id="239292" val_str="" val_text="" is_set="1" def_name="consolidation_address3" def_type="string" />
+    <DATA_FIELD id="239293" val_text="" is_set="0" def_name="consolidation_address3_doubtful" def_type="enum" />
+    <DATA_FIELD id="239294" val_str="" val_text="" is_set="1" def_name="consolidation_country1" def_type="enum" />
+    <DATA_FIELD id="239295" val_text="" is_set="0" def_name="consolidation_country1_doubtful" def_type="string" />
+    <DATA_FIELD id="239296" val_str="" val_text="" is_set="1" def_name="consolidation_country2" def_type="enum" />
+    <DATA_FIELD id="239297" val_text="" is_set="0" def_name="consolidation_country2_doubtful" def_type="string" />
+    <DATA_FIELD id="239298" val_str="" val_text="" is_set="1" def_name="consolidation_country3" def_type="enum" />
+    <DATA_FIELD id="239299" val_text="" is_set="0" def_name="consolidation_country3_doubtful" def_type="string" />
+    <DATA_FIELD id="239300" val_str="" val_text="" is_set="1" def_name="consolidation_desc1" def_type="string" />
+    <DATA_FIELD id="239301" val_text="" is_set="0" def_name="consolidation_desc1_doubtful" def_type="enum" />
+    <DATA_FIELD id="239302" val_str="" val_text="" is_set="1" def_name="consolidation_desc2" def_type="string" />
+    <DATA_FIELD id="239303" val_text="" is_set="0" def_name="consolidation_desc2_doubtful" def_type="enum" />
+    <DATA_FIELD id="239304" val_str="" val_text="" is_set="1" def_name="consolidation_desc3" def_type="string" />
+    <DATA_FIELD id="239305" val_text="" is_set="0" def_name="consolidation_desc3_doubtful" def_type="enum" />
+    <DATA_FIELD id="239306" val_str="" val_text="" is_set="1" def_name="consolidation_place1" def_type="string" />
+    <DATA_FIELD id="239307" val_str="" val_text="" is_set="1" def_name="consolidation_place2" def_type="string" />
+    <DATA_FIELD id="239308" val_str="" val_text="" is_set="1" def_name="consolidation_place3" def_type="string" />
+    <DATA_FIELD id="239309" val_str="" val_text="" is_set="1" def_name="consolidation_stev_reg1" def_type="string" />
+    <DATA_FIELD id="239310" val_str="" val_text="" is_set="1" def_name="consolidation_stev_reg2" def_type="string" />
+    <DATA_FIELD id="239311" val_str="" val_text="" is_set="1" def_name="consolidation_stev_reg3" def_type="string" />
+    <DATA_FIELD id="239312" val_str="" val_text="" is_set="1" def_name="contact_desc" def_type="string" />
+    <DATA_FIELD id="239313" val_text="" is_set="0" def_name="contact_desc_doubtful" def_type="enum" />
+    <DATA_FIELD id="239314" val_str="" val_text="" is_set="1" def_name="contact_oib" def_type="string" />
+    <DATA_FIELD id="239315" val_str="" val_text="" is_set="1" def_name="contact_phone" def_type="string" />
+    <DATA_FIELD id="239316" val_str="Heinzelova 60" val_text="" is_set="1" def_name="customer_address" def_type="string" />
+    <DATA_FIELD id="239317" val_str="Ne" val_text="" is_set="1" def_name="customer_address_doubtful" def_type="enum" />
+    <DATA_FIELD id="239318" val_str="Heinzelova 60" val_text="" is_set="1" def_name="customer_business_address" def_type="string" />
+    <DATA_FIELD id="239319" val_str="Ne" val_text="" is_set="1" def_name="customer_business_address_doubtful" def_type="string" />
+    <DATA_FIELD id="239320" val_str="HR" val_text="" is_set="1" def_name="customer_business_country" def_type="enum" />
+    <DATA_FIELD id="239321" val_str="1" val_text="" is_set="1" def_name="customer_business_country_doubtful" def_type="string" />
+    <DATA_FIELD id="239322" val_str="Zagreb" val_text="" is_set="1" def_name="customer_business_place" def_type="string" />
+    <DATA_FIELD id="239323" val_str="11" val_text="" is_set="1" def_name="customer_category" def_type="enum" />
+    <DATA_FIELD id="239324" val_str="HR" val_text="" is_set="1" def_name="customer_country" def_type="enum" />
+    <DATA_FIELD id="239325" val_str="1" val_text="" is_set="1" def_name="customer_country_doubtful" def_type="string" />
+    <DATA_FIELD id="239326" val_text="" is_set="0" def_name="customer_date_of_establishment" def_type="date" />
+    <DATA_FIELD id="239327" val_str="PET NETWORK INTERNATIONAL D.O.O." val_text="" is_set="1" def_name="customer_desc" def_type="string" />
+    <DATA_FIELD id="239328" val_str="Ne" val_text="" is_set="1" def_name="customer_desc_doubtful" def_type="enum" />
+    <DATA_FIELD id="239329" val_str="Da" val_text="" is_set="1" def_name="customer_do_business" def_type="enum" />
+    <DATA_FIELD id="239330" val_str="HR" val_text="" is_set="1" def_name="customer_drzavljan" def_type="enum" />
+    <DATA_FIELD id="239331" val_str="04870328" val_text="" is_set="1" def_name="customer_emso" def_type="string" />
+    <DATA_FIELD id="239332" val_str="DOO" val_text="" is_set="1" def_name="customer_form" def_type="enum" />
+    <DATA_FIELD id="239333" val_str="037643" val_text="" is_set="1" def_name="customer_id" def_type="string" />
+    <DATA_FIELD id="239334" val_text="" is_set="0" def_name="customer_id_multiple" def_type="enum2" />
+    <DATA_FIELD id="239335" val_text="" is_set="0" def_name="customer_is_fo_for_sp" def_type="boolean" />
+    <DATA_FIELD id="239336" val_text="" is_set="0" def_name="customer_is_fo_for_sp_msg" def_type="string" />
+    <DATA_FIELD id="239337" val_str="false" val_text="" is_set="1" def_name="customer_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239338" val_str="" val_text="" is_set="1" def_name="customer_marketplace" def_type="string" />
+    <DATA_FIELD id="239339" val_str="false" val_text="" is_set="1" def_name="customer_multiple_oib" def_type="boolean" />
+    <DATA_FIELD id="239340" val_str="false" val_text="" is_set="1" def_name="customer_not_present" def_type="boolean" />
+    <DATA_FIELD id="239341" val_str="" val_text="" is_set="1" def_name="customer_number_of_employees" def_type="string" />
+    <DATA_FIELD id="239342" val_str="Da" val_text="" is_set="1" def_name="customer_obligations_vat" def_type="enum" />
+    <DATA_FIELD id="239343" val_str="06129728848" val_text="" is_set="1" def_name="customer_oib" def_type="string" />
+    <DATA_FIELD id="239344" val_text="" is_set="0" def_name="customer_p_kateg_mark" def_type="string" />
+    <DATA_FIELD id="239345" val_str="1" val_text="" is_set="1" def_name="customer_peergroup_mark" def_type="string" />
+    <DATA_FIELD id="239346" val_str="Zagreb" val_text="" is_set="1" def_name="customer_place" def_type="string" />
+    <DATA_FIELD id="239347" val_str="" val_text="" is_set="1" def_name="customer_place_of_birth" def_type="string" />
+    <DATA_FIELD id="239348" val_str="Ne" val_text="" is_set="1" def_name="customer_reliable_market_place" def_type="enum" />
+    <DATA_FIELD id="239349" val_str="1" val_text="" is_set="1" def_name="customer_risk_mark" def_type="string" />
+    <DATA_FIELD id="239350" val_str="9104" val_text="" is_set="1" def_name="customer_sif_dej" def_type="enum" />
+    <DATA_FIELD id="239351" val_str="1" val_text="" is_set="1" def_name="customer_sif_dej_mark" def_type="string" />
+    <DATA_FIELD id="239352" val_str="081153712" val_text="" is_set="1" def_name="customer_stev_reg" def_type="string" />
+    <DATA_FIELD id="239353" val_str="P2" val_text="" is_set="1" def_name="customer_type" def_type="enum" />
+    <DATA_FIELD id="239354" val_str="true" val_text="" is_set="1" def_name="do_additional_aproval" def_type="boolean" />
+    <DATA_FIELD id="239355" val_text="" is_set="0" def_name="do_long_analysis" def_type="enum" />
+    <DATA_FIELD id="239356" val_str="" val_text="" is_set="1" def_name="eval_comment" def_type="string2" />
+    <DATA_FIELD id="239357" val_str="" val_text="" is_set="1" def_name="eval_comment_aproved" def_type="string2" />
+    <DATA_FIELD id="239358" val_str="2021-03-30T00:00:00" val_text="" is_set="1" def_name="eval_date" def_type="date" />
+    <DATA_FIELD id="239359" val_text="" is_set="0" def_name="evaluation_aproved" def_type="enum" />
+    <DATA_FIELD id="239360" val_str="niski" val_text="" is_set="1" def_name="evaluation_channel_delivery" def_type="enum" />
+    <DATA_FIELD id="239361" val_str="" val_text="" is_set="1" def_name="global_address" def_type="string" />
+    <DATA_FIELD id="239362" val_str="Ne" val_text="" is_set="1" def_name="global_address_doubtful" def_type="enum" />
+    <DATA_FIELD id="239363" val_str="" val_text="" is_set="1" def_name="global_country" def_type="string" />
+    <DATA_FIELD id="239364" val_str="1" val_text="" is_set="1" def_name="global_country_doubtful" def_type="string" />
+    <DATA_FIELD id="239365" val_str="1" val_text="" is_set="1" def_name="global_cust_exists" def_type="int" />
+    <DATA_FIELD id="239366" val_str="MAN" val_text="" is_set="1" def_name="global_cust_is" def_type="enum" />
+    <DATA_FIELD id="239367" val_str="" val_text="" is_set="1" def_name="global_customer_desc" def_type="string" />
+    <DATA_FIELD id="239368" val_str="Ne" val_text="" is_set="1" def_name="global_customer_desc_doubtful" def_type="enum" />
+    <DATA_FIELD id="239369" val_text="" is_set="0" def_name="global_customer_fo_name" def_type="string" />
+    <DATA_FIELD id="239370" val_str="false" val_text="" is_set="1" def_name="global_customer_is_fi" def_type="boolean" />
+    <DATA_FIELD id="239371" val_str="TRG Pluto LP" val_text="" is_set="1" def_name="global_desc_doubtful" def_type="string" />
+    <DATA_FIELD id="239372" val_str="Ne" val_text="" is_set="1" def_name="global_do_check" def_type="enum" />
+    <DATA_FIELD id="239373" val_text="" is_set="0" def_name="global_exclude_username" def_type="string" />
+    <DATA_FIELD id="239374" val_str="12,13,14,20" val_text="" is_set="1" def_name="global_fi_customers" def_type="string" />
+    <DATA_FIELD id="239375" val_text="" is_set="0" def_name="global_fo_check_step_desc" def_type="string" />
+    <DATA_FIELD id="239376" val_text="" is_set="0" def_name="global_instance_description" def_type="string" />
+    <DATA_FIELD id="239377" val_text="" is_set="0" def_name="global_instance_variable" def_type="string" />
+    <DATA_FIELD id="239378" val_text="" is_set="0" def_name="global_mail_subject" def_type="string" />
+    <DATA_FIELD id="239379" val_text="" is_set="0" def_name="global_mail_to" def_type="string" />
+    <DATA_FIELD id="239380" val_str="Da" val_text="" is_set="1" def_name="global_mark_xc" def_type="enum" />
+    <DATA_FIELD id="239381" val_text="" is_set="0" def_name="global_pep" def_type="boolean" />
+    <DATA_FIELD id="239382" val_text="" is_set="0" def_name="global_user_name" def_type="string" />
+    <DATA_FIELD id="239383" val_str="12,13,14,18" val_text="" is_set="1" def_name="global_xa_customers" def_type="string" />
+    <DATA_FIELD id="239384" val_text="" is_set="0" def_name="global_xa_sif_dej" def_type="string" />
+    <DATA_FIELD id="239385" val_text="" is_set="0" def_name="instance_version" def_type="int" />
+    <DATA_FIELD id="239386" val_text="" is_set="0" def_name="instance_xml_data" def_type="string2" />
+    <DATA_FIELD id="239387" val_str="" val_text="" is_set="1" def_name="management_address1" def_type="string" />
+    <DATA_FIELD id="239388" val_text="" is_set="0" def_name="management_address1_doubtful" def_type="enum" />
+    <DATA_FIELD id="239389" val_str="" val_text="" is_set="1" def_name="management_address2" def_type="string" />
+    <DATA_FIELD id="239390" val_text="" is_set="0" def_name="management_address2_doubtful" def_type="enum" />
+    <DATA_FIELD id="239391" val_str="" val_text="" is_set="1" def_name="management_address3" def_type="string" />
+    <DATA_FIELD id="239392" val_text="" is_set="0" def_name="management_address3_doubtful" def_type="enum" />
+    <DATA_FIELD id="239393" val_str="" val_text="" is_set="1" def_name="management_country1" def_type="enum" />
+    <DATA_FIELD id="239394" val_text="" is_set="0" def_name="management_country1_doubtful" def_type="string" />
+    <DATA_FIELD id="239395" val_str="" val_text="" is_set="1" def_name="management_country2" def_type="enum" />
+    <DATA_FIELD id="239396" val_text="" is_set="0" def_name="management_country2_doubtful" def_type="string" />
+    <DATA_FIELD id="239397" val_str="" val_text="" is_set="1" def_name="management_country3" def_type="enum" />
+    <DATA_FIELD id="239398" val_text="" is_set="0" def_name="management_country3_doubtful" def_type="string" />
+    <DATA_FIELD id="239399" val_str="" val_text="" is_set="1" def_name="management_desc1" def_type="string" />
+    <DATA_FIELD id="239400" val_text="" is_set="0" def_name="management_desc1_doubtful" def_type="enum" />
+    <DATA_FIELD id="239401" val_str="false" val_text="" is_set="1" def_name="management_desc1_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239402" val_str="" val_text="" is_set="1" def_name="management_desc2" def_type="string" />
+    <DATA_FIELD id="239403" val_text="" is_set="0" def_name="management_desc2_doubtful" def_type="enum" />
+    <DATA_FIELD id="239404" val_str="false" val_text="" is_set="1" def_name="management_desc2_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239405" val_str="" val_text="" is_set="1" def_name="management_desc3" def_type="string" />
+    <DATA_FIELD id="239406" val_text="" is_set="0" def_name="management_desc3_doubtful" def_type="enum" />
+    <DATA_FIELD id="239407" val_str="false" val_text="" is_set="1" def_name="management_desc3_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239408" val_str="" val_text="" is_set="1" def_name="management_function1" def_type="string" />
+    <DATA_FIELD id="239409" val_str="" val_text="" is_set="1" def_name="management_function2" def_type="string" />
+    <DATA_FIELD id="239410" val_str="" val_text="" is_set="1" def_name="management_function3" def_type="string" />
+    <DATA_FIELD id="239411" val_text="" is_set="0" def_name="management_nova_id1" def_type="string" />
+    <DATA_FIELD id="239412" val_text="" is_set="0" def_name="management_nova_id2" def_type="string" />
+    <DATA_FIELD id="239413" val_text="" is_set="0" def_name="management_nova_id3" def_type="string" />
+    <DATA_FIELD id="239414" val_str="" val_text="" is_set="1" def_name="management_nova_oib1" def_type="string" />
+    <DATA_FIELD id="239415" val_str="" val_text="" is_set="1" def_name="management_nova_oib2" def_type="string" />
+    <DATA_FIELD id="239416" val_str="" val_text="" is_set="1" def_name="management_nova_oib3" def_type="string" />
+    <DATA_FIELD id="239417" val_text="" is_set="0" def_name="management_nova1" def_type="boolean" />
+    <DATA_FIELD id="239418" val_text="" is_set="0" def_name="management_nova2" def_type="boolean" />
+    <DATA_FIELD id="239419" val_text="" is_set="0" def_name="management_nova3" def_type="boolean" />
+    <DATA_FIELD id="239420" val_str="" val_text="" is_set="1" def_name="management_place1" def_type="string" />
+    <DATA_FIELD id="239421" val_str="" val_text="" is_set="1" def_name="management_place2" def_type="string" />
+    <DATA_FIELD id="239422" val_str="" val_text="" is_set="1" def_name="management_place3" def_type="string" />
+    <DATA_FIELD id="239423" val_text="" is_set="0" def_name="managment_desc1_child_process_id" def_type="int" />
+    <DATA_FIELD id="239424" val_text="" is_set="0" def_name="managment_desc2_child_process_id" def_type="int" />
+    <DATA_FIELD id="239425" val_text="" is_set="0" def_name="managment_desc3_child_process_id" def_type="int" />
+    <DATA_FIELD id="239426" val_text="" is_set="0" def_name="next_eval_date" def_type="date" />
+    <DATA_FIELD id="239427" val_text="" is_set="0" def_name="p_eval_reposonse" def_type="string" />
+    <DATA_FIELD id="239428" val_text="" is_set="0" def_name="partners_for_update" def_type="string2" />
+    <DATA_FIELD id="239429" val_text="" is_set="0" def_name="pio_1" def_type="enum" />
+    <DATA_FIELD id="239430" val_text="" is_set="0" def_name="pio_2" def_type="enum" />
+    <DATA_FIELD id="239431" val_text="" is_set="0" def_name="pio_3" def_type="enum" />
+    <DATA_FIELD id="239432" val_text="" is_set="0" def_name="pio_4" def_type="enum" />
+    <DATA_FIELD id="239433" val_text="" is_set="0" def_name="pio_5" def_type="enum" />
+    <DATA_FIELD id="239434" val_text="" is_set="0" def_name="pio_6" def_type="enum" />
+    <DATA_FIELD id="239435" val_text="" is_set="0" def_name="pio_7" def_type="string" />
+    <DATA_FIELD id="239436" val_text="" is_set="0" def_name="process_id" def_type="string" />
+    <DATA_FIELD id="239437" val_str="Ne" val_text="" is_set="1" def_name="procurator" def_type="enum" />
+    <DATA_FIELD id="239438" val_str="" val_text="" is_set="1" def_name="procurator_address1" def_type="string" />
+    <DATA_FIELD id="239439" val_text="" is_set="0" def_name="procurator_address1_doubtful" def_type="enum" />
+    <DATA_FIELD id="239440" val_str="" val_text="" is_set="1" def_name="procurator_address2" def_type="string" />
+    <DATA_FIELD id="239441" val_text="" is_set="0" def_name="procurator_address2_doubtful" def_type="enum" />
+    <DATA_FIELD id="239442" val_str="" val_text="" is_set="1" def_name="procurator_address3" def_type="string" />
+    <DATA_FIELD id="239443" val_text="" is_set="0" def_name="procurator_address3_doubtful" def_type="enum" />
+    <DATA_FIELD id="239444" val_str="" val_text="" is_set="1" def_name="procurator_country1" def_type="enum" />
+    <DATA_FIELD id="239445" val_text="" is_set="0" def_name="procurator_country1_doubtful" def_type="string" />
+    <DATA_FIELD id="239446" val_str="" val_text="" is_set="1" def_name="procurator_country2" def_type="enum" />
+    <DATA_FIELD id="239447" val_text="" is_set="0" def_name="procurator_country2_doubtful" def_type="string" />
+    <DATA_FIELD id="239448" val_str="" val_text="" is_set="1" def_name="procurator_country3" def_type="enum" />
+    <DATA_FIELD id="239449" val_text="" is_set="0" def_name="procurator_country3_doubtful" def_type="string" />
+    <DATA_FIELD id="239450" val_str="" val_text="" is_set="1" def_name="procurator_desc1" def_type="string" />
+    <DATA_FIELD id="239451" val_text="" is_set="0" def_name="procurator_desc1_child_process_id" def_type="int" />
+    <DATA_FIELD id="239452" val_text="" is_set="0" def_name="procurator_desc1_doubtful" def_type="enum" />
+    <DATA_FIELD id="239453" val_str="false" val_text="" is_set="1" def_name="procurator_desc1_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239454" val_str="" val_text="" is_set="1" def_name="procurator_desc2" def_type="string" />
+    <DATA_FIELD id="239455" val_text="" is_set="0" def_name="procurator_desc2_child_process_id" def_type="int" />
+    <DATA_FIELD id="239456" val_text="" is_set="0" def_name="procurator_desc2_doubtful" def_type="enum" />
+    <DATA_FIELD id="239457" val_str="false" val_text="" is_set="1" def_name="procurator_desc2_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239458" val_str="" val_text="" is_set="1" def_name="procurator_desc3" def_type="string" />
+    <DATA_FIELD id="239459" val_text="" is_set="0" def_name="procurator_desc3_child_process_id" def_type="int" />
+    <DATA_FIELD id="239460" val_text="" is_set="0" def_name="procurator_desc3_doubtful" def_type="enum" />
+    <DATA_FIELD id="239461" val_str="false" val_text="" is_set="1" def_name="procurator_desc3_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239462" val_str="Ne" val_text="" is_set="1" def_name="procurator_employment1" def_type="enum" />
+    <DATA_FIELD id="239463" val_str="Ne" val_text="" is_set="1" def_name="procurator_employment2" def_type="enum" />
+    <DATA_FIELD id="239464" val_str="Ne" val_text="" is_set="1" def_name="procurator_employment3" def_type="enum" />
+    <DATA_FIELD id="239465" val_text="" is_set="0" def_name="procurator_nova_id1" def_type="string" />
+    <DATA_FIELD id="239466" val_text="" is_set="0" def_name="procurator_nova_id2" def_type="string" />
+    <DATA_FIELD id="239467" val_text="" is_set="0" def_name="procurator_nova_id3" def_type="string" />
+    <DATA_FIELD id="239468" val_text="" is_set="0" def_name="procurator_nova1" def_type="boolean" />
+    <DATA_FIELD id="239469" val_text="" is_set="0" def_name="procurator_nova2" def_type="boolean" />
+    <DATA_FIELD id="239470" val_text="" is_set="0" def_name="procurator_nova3" def_type="boolean" />
+    <DATA_FIELD id="239471" val_str="" val_text="" is_set="1" def_name="procurator_oib1" def_type="string" />
+    <DATA_FIELD id="239472" val_str="" val_text="" is_set="1" def_name="procurator_oib2" def_type="string" />
+    <DATA_FIELD id="239473" val_str="" val_text="" is_set="1" def_name="procurator_oib3" def_type="string" />
+    <DATA_FIELD id="239474" val_str="" val_text="" is_set="1" def_name="procurator_place1" def_type="string" />
+    <DATA_FIELD id="239475" val_str="" val_text="" is_set="1" def_name="procurator_place2" def_type="string" />
+    <DATA_FIELD id="239476" val_str="" val_text="" is_set="1" def_name="procurator_place3" def_type="string" />
+    <DATA_FIELD id="239477" val_str="Ne" val_text="" is_set="1" def_name="reenter" def_type="enum" />
+    <DATA_FIELD id="239478" val_str="" val_text="" is_set="1" def_name="related_fo_manage_address1" def_type="string" />
+    <DATA_FIELD id="239479" val_text="" is_set="0" def_name="related_fo_manage_address1_doubtful" def_type="enum" />
+    <DATA_FIELD id="239480" val_str="" val_text="" is_set="1" def_name="related_fo_manage_address2" def_type="string" />
+    <DATA_FIELD id="239481" val_text="" is_set="0" def_name="related_fo_manage_address2_doubtful" def_type="enum" />
+    <DATA_FIELD id="239482" val_str="" val_text="" is_set="1" def_name="related_fo_manage_address3" def_type="string" />
+    <DATA_FIELD id="239483" val_text="" is_set="0" def_name="related_fo_manage_address3_doubtful" def_type="enum" />
+    <DATA_FIELD id="239484" val_str="" val_text="" is_set="1" def_name="related_fo_manage_address4" def_type="string" />
+    <DATA_FIELD id="239485" val_text="" is_set="0" def_name="related_fo_manage_address4_doubtful" def_type="enum" />
+    <DATA_FIELD id="239486" val_text="" is_set="0" def_name="related_fo_manage_birth_date1" def_type="date" />
+    <DATA_FIELD id="239487" val_text="" is_set="0" def_name="related_fo_manage_birth_date2" def_type="date" />
+    <DATA_FIELD id="239488" val_text="" is_set="0" def_name="related_fo_manage_birth_date3" def_type="date" />
+    <DATA_FIELD id="239489" val_text="" is_set="0" def_name="related_fo_manage_birth_date4" def_type="date" />
+    <DATA_FIELD id="239490" val_str="" val_text="" is_set="1" def_name="related_fo_manage_birthplace1" def_type="string" />
+    <DATA_FIELD id="239491" val_str="" val_text="" is_set="1" def_name="related_fo_manage_birthplace2" def_type="string" />
+    <DATA_FIELD id="239492" val_str="" val_text="" is_set="1" def_name="related_fo_manage_birthplace3" def_type="string" />
+    <DATA_FIELD id="239493" val_str="" val_text="" is_set="1" def_name="related_fo_manage_birthplace4" def_type="string" />
+    <DATA_FIELD id="239494" val_str="" val_text="" is_set="1" def_name="related_fo_manage_country1" def_type="enum" />
+    <DATA_FIELD id="239495" val_text="" is_set="0" def_name="related_fo_manage_country1_doubtful" def_type="string" />
+    <DATA_FIELD id="239496" val_str="" val_text="" is_set="1" def_name="related_fo_manage_country2" def_type="enum" />
+    <DATA_FIELD id="239497" val_text="" is_set="0" def_name="related_fo_manage_country2_doubtful" def_type="string" />
+    <DATA_FIELD id="239498" val_str="" val_text="" is_set="1" def_name="related_fo_manage_country3" def_type="enum" />
+    <DATA_FIELD id="239499" val_text="" is_set="0" def_name="related_fo_manage_country3_doubtful" def_type="string" />
+    <DATA_FIELD id="239500" val_str="" val_text="" is_set="1" def_name="related_fo_manage_country4" def_type="enum" />
+    <DATA_FIELD id="239501" val_text="" is_set="0" def_name="related_fo_manage_country4_doubtful" def_type="string" />
+    <DATA_FIELD id="239502" val_str="" val_text="" is_set="1" def_name="related_fo_manage_desc1" def_type="string" />
+    <DATA_FIELD id="239503" val_text="" is_set="0" def_name="related_fo_manage_desc1_child_process_id" def_type="int" />
+    <DATA_FIELD id="239504" val_text="" is_set="0" def_name="related_fo_manage_desc1_doubtful" def_type="enum" />
+    <DATA_FIELD id="239505" val_str="false" val_text="" is_set="1" def_name="related_fo_manage_desc1_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239506" val_str="" val_text="" is_set="1" def_name="related_fo_manage_desc2" def_type="string" />
+    <DATA_FIELD id="239507" val_text="" is_set="0" def_name="related_fo_manage_desc2_child_process_id" def_type="int" />
+    <DATA_FIELD id="239508" val_text="" is_set="0" def_name="related_fo_manage_desc2_doubtful" def_type="enum" />
+    <DATA_FIELD id="239509" val_str="false" val_text="" is_set="1" def_name="related_fo_manage_desc2_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239510" val_str="" val_text="" is_set="1" def_name="related_fo_manage_desc3" def_type="string" />
+    <DATA_FIELD id="239511" val_text="" is_set="0" def_name="related_fo_manage_desc3_child_process_id" def_type="int" />
+    <DATA_FIELD id="239512" val_text="" is_set="0" def_name="related_fo_manage_desc3_doubtful" def_type="enum" />
+    <DATA_FIELD id="239513" val_str="false" val_text="" is_set="1" def_name="related_fo_manage_desc3_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239514" val_str="" val_text="" is_set="1" def_name="related_fo_manage_desc4" def_type="string" />
+    <DATA_FIELD id="239515" val_text="" is_set="0" def_name="related_fo_manage_desc4_child_process_id" def_type="int" />
+    <DATA_FIELD id="239516" val_text="" is_set="0" def_name="related_fo_manage_desc4_doubtful" def_type="enum" />
+    <DATA_FIELD id="239517" val_str="false" val_text="" is_set="1" def_name="related_fo_manage_desc4_is_pio" def_type="boolean" />
+    <DATA_FIELD id="239518" val_str="A" val_text="" is_set="1" def_name="related_fo_manage_foundation1" def_type="enum" />
+    <DATA_FIELD id="239519" val_str="A" val_text="" is_set="1" def_name="related_fo_manage_foundation2" def_type="enum" />
+    <DATA_FIELD id="239520" val_str="A" val_text="" is_set="1" def_name="related_fo_manage_foundation3" def_type="enum" />
+    <DATA_FIELD id="239521" val_str="A" val_text="" is_set="1" def_name="related_fo_manage_foundation4" def_type="enum" />
+    <DATA_FIELD id="239522" val_text="" is_set="0" def_name="related_fo_manage_id_doc_date1" def_type="date" />
+    <DATA_FIELD id="239523" val_text="" is_set="0" def_name="related_fo_manage_id_doc_date2" def_type="date" />
+    <DATA_FIELD id="239524" val_text="" is_set="0" def_name="related_fo_manage_id_doc_date3" def_type="date" />
+    <DATA_FIELD id="239525" val_text="" is_set="0" def_name="related_fo_manage_id_doc_date4" def_type="date" />
+    <DATA_FIELD id="239526" val_str="" val_text="" is_set="1" def_name="related_fo_manage_id_doc_issuer1" def_type="string" />
+    <DATA_FIELD id="239527" val_str="" val_text="" is_set="1" def_name="related_fo_manage_id_doc_issuer2" def_type="string" />
+    <DATA_FIELD id="239528" val_str="" val_text="" is_set="1" def_name="related_fo_manage_id_doc_issuer3" def_type="string" />
+    <DATA_FIELD id="239529" val_str="" val_text="" is_set="1" def_name="related_fo_manage_id_doc_issuer4" def_type="string" />
+    <DATA_FIELD id="239530" val_str="" val_text="" is_set="1" def_name="related_fo_manage_ident_doc1" def_type="string" />
+    <DATA_FIELD id="239531" val_str="" val_text="" is_set="1" def_name="related_fo_manage_ident_doc2" def_type="string" />
+    <DATA_FIELD id="239532" val_str="" val_text="" is_set="1" def_name="related_fo_manage_ident_doc3" def_type="string" />
+    <DATA_FIELD id="239533" val_str="" val_text="" is_set="1" def_name="related_fo_manage_ident_doc4" def_type="string" />
+    <DATA_FIELD id="239534" val_str="direktni" val_text="" is_set="1" def_name="related_fo_manage_info1" def_type="enum" />
+    <DATA_FIELD id="239535" val_str="direktni" val_text="" is_set="1" def_name="related_fo_manage_info2" def_type="enum" />
+    <DATA_FIELD id="239536" val_str="direktni" val_text="" is_set="1" def_name="related_fo_manage_info3" def_type="enum" />
+    <DATA_FIELD id="239537" val_str="direktni" val_text="" is_set="1" def_name="related_fo_manage_info4" def_type="enum" />
+    <DATA_FIELD id="239538" val_str="" val_text="" is_set="1" def_name="related_fo_manage_nationality1" def_type="enum" />
+    <DATA_FIELD id="239539" val_str="" val_text="" is_set="1" def_name="related_fo_manage_nationality2" def_type="enum" />
+    <DATA_FIELD id="239540" val_str="" val_text="" is_set="1" def_name="related_fo_manage_nationality3" def_type="enum" />
+    <DATA_FIELD id="239541" val_str="" val_text="" is_set="1" def_name="related_fo_manage_nationality4" def_type="enum" />
+    <DATA_FIELD id="239542" val_text="" is_set="0" def_name="related_fo_manage_nova_id1" def_type="string" />
+    <DATA_FIELD id="239543" val_text="" is_set="0" def_name="related_fo_manage_nova_id2" def_type="string" />
+    <DATA_FIELD id="239544" val_text="" is_set="0" def_name="related_fo_manage_nova_id3" def_type="string" />
+    <DATA_FIELD id="239545" val_text="" is_set="0" def_name="related_fo_manage_nova_id4" def_type="string" />
+    <DATA_FIELD id="239546" val_text="" is_set="0" def_name="related_fo_manage_nova1" def_type="boolean" />
+    <DATA_FIELD id="239547" val_text="" is_set="0" def_name="related_fo_manage_nova2" def_type="boolean" />
+    <DATA_FIELD id="239548" val_text="" is_set="0" def_name="related_fo_manage_nova3" def_type="boolean" />
+    <DATA_FIELD id="239549" val_text="" is_set="0" def_name="related_fo_manage_nova4" def_type="boolean" />
+    <DATA_FIELD id="239550" val_str="" val_text="" is_set="1" def_name="related_fo_manage_oib1" def_type="string" />
+    <DATA_FIELD id="239551" val_str="" val_text="" is_set="1" def_name="related_fo_manage_oib2" def_type="string" />
+    <DATA_FIELD id="239552" val_str="" val_text="" is_set="1" def_name="related_fo_manage_oib3" def_type="string" />
+    <DATA_FIELD id="239553" val_str="" val_text="" is_set="1" def_name="related_fo_manage_oib4" def_type="string" />
+    <DATA_FIELD id="239554" val_text="" is_set="0" def_name="related_fo_manage_percentage_of_shares1" def_type="decimal" />
+    <DATA_FIELD id="239555" val_text="" is_set="0" def_name="related_fo_manage_percentage_of_shares2" def_type="decimal" />
+    <DATA_FIELD id="239556" val_text="" is_set="0" def_name="related_fo_manage_percentage_of_shares3" def_type="decimal" />
+    <DATA_FIELD id="239557" val_text="" is_set="0" def_name="related_fo_manage_percentage_of_shares4" def_type="decimal" />
+    <DATA_FIELD id="239558" val_str="" val_text="" is_set="1" def_name="related_fo_manage_place1" def_type="string" />
+    <DATA_FIELD id="239559" val_str="" val_text="" is_set="1" def_name="related_fo_manage_place2" def_type="string" />
+    <DATA_FIELD id="239560" val_str="" val_text="" is_set="1" def_name="related_fo_manage_place3" def_type="string" />
+    <DATA_FIELD id="239561" val_str="" val_text="" is_set="1" def_name="related_fo_manage_place4" def_type="string" />
+    <DATA_FIELD id="239562" val_str="" val_text="" is_set="1" def_name="related_fo_manage_stev_reg1" def_type="string" />
+    <DATA_FIELD id="239563" val_str="" val_text="" is_set="1" def_name="related_fo_manage_stev_reg2" def_type="string" />
+    <DATA_FIELD id="239564" val_str="" val_text="" is_set="1" def_name="related_fo_manage_stev_reg3" def_type="string" />
+    <DATA_FIELD id="239565" val_str="" val_text="" is_set="1" def_name="related_fo_manage_stev_reg4" def_type="string" />
+    <DATA_FIELD id="239566" val_str="Nova cesta 60" val_text="" is_set="1" def_name="related_po_manage_address1" def_type="string" />
+    <DATA_FIELD id="239567" val_str="Ne" val_text="" is_set="1" def_name="related_po_manage_address1_doubtful" def_type="enum" />
+    <DATA_FIELD id="239568" val_str="PO Box 1348, Grand Cayman KY1-1108, 94 Solaris Avenue" val_text="" is_set="1" def_name="related_po_manage_address2" def_type="string" />
+    <DATA_FIELD id="239569" val_str="Ne" val_text="" is_set="1" def_name="related_po_manage_address2_doubtful" def_type="enum" />
+    <DATA_FIELD id="239570" val_str="" val_text="" is_set="1" def_name="related_po_manage_address3" def_type="string" />
+    <DATA_FIELD id="239571" val_str="Ne" val_text="" is_set="1" def_name="related_po_manage_address3_doubtful" def_type="enum" />
+    <DATA_FIELD id="239572" val_str="" val_text="" is_set="1" def_name="related_po_manage_address4" def_type="string" />
+    <DATA_FIELD id="239573" val_str="Ne" val_text="" is_set="1" def_name="related_po_manage_address4_doubtful" def_type="enum" />
+    <DATA_FIELD id="239574" val_str="" val_text="" is_set="1" def_name="related_po_manage_country_registration1" def_type="enum" />
+    <DATA_FIELD id="239575" val_str="KY" val_text="" is_set="1" def_name="related_po_manage_country_registration2" def_type="enum" />
+    <DATA_FIELD id="239576" val_str="" val_text="" is_set="1" def_name="related_po_manage_country_registration3" def_type="enum" />
+    <DATA_FIELD id="239577" val_str="" val_text="" is_set="1" def_name="related_po_manage_country_registration4" def_type="enum" />
+    <DATA_FIELD id="239578" val_str="HR" val_text="" is_set="1" def_name="related_po_manage_country1" def_type="enum" />
+    <DATA_FIELD id="239579" val_str="1" val_text="" is_set="1" def_name="related_po_manage_country1_doubtful" def_type="string" />
+    <DATA_FIELD id="239580" val_str="KY" val_text="" is_set="1" def_name="related_po_manage_country2" def_type="enum" />
+    <DATA_FIELD id="239581" val_str="3H" val_text="" is_set="1" def_name="related_po_manage_country2_doubtful" def_type="string" />
+    <DATA_FIELD id="239582" val_str="" val_text="" is_set="1" def_name="related_po_manage_country3" def_type="enum" />
+    <DATA_FIELD id="239583" val_str="1" val_text="" is_set="1" def_name="related_po_manage_country3_doubtful" def_type="string" />
+    <DATA_FIELD id="239584" val_str="" val_text="" is_set="1" def_name="related_po_manage_country4" def_type="enum" />
+    <DATA_FIELD id="239585" val_str="1" val_text="" is_set="1" def_name="related_po_manage_country4_doubtful" def_type="string" />
+    <DATA_FIELD id="239586" val_text="" is_set="0" def_name="related_po_manage_date_of_establishment1" def_type="date" />
+    <DATA_FIELD id="239587" val_text="" is_set="0" def_name="related_po_manage_date_of_establishment2" def_type="date" />
+    <DATA_FIELD id="239588" val_text="" is_set="0" def_name="related_po_manage_date_of_establishment3" def_type="date" />
+    <DATA_FIELD id="239589" val_text="" is_set="0" def_name="related_po_manage_date_of_establishment4" def_type="date" />
+    <DATA_FIELD id="239590" val_str="TRG Pluto 1 društvo s ograničenom odgovornošću za upravljanje društvima" val_text="" is_set="1" def_name="related_po_manage_desc1" def_type="string" />
+    <DATA_FIELD id="239591" val_str="Ne" val_text="" is_set="1" def_name="related_po_manage_desc1_doubtful" def_type="enum" />
+    <DATA_FIELD id="239592" val_str="TRG Pluto LP" val_text="" is_set="1" def_name="related_po_manage_desc2" def_type="string" />
+    <DATA_FIELD id="239593" val_str="Ne" val_text="" is_set="1" def_name="related_po_manage_desc2_doubtful" def_type="enum" />
+    <DATA_FIELD id="239594" val_str="" val_text="" is_set="1" def_name="related_po_manage_desc3" def_type="string" />
+    <DATA_FIELD id="239595" val_str="Ne" val_text="" is_set="1" def_name="related_po_manage_desc3_doubtful" def_type="enum" />
+    <DATA_FIELD id="239596" val_str="" val_text="" is_set="1" def_name="related_po_manage_desc4" def_type="string" />
+    <DATA_FIELD id="239597" val_str="Ne" val_text="" is_set="1" def_name="related_po_manage_desc4_doubtful" def_type="enum" />
+    <DATA_FIELD id="239598" val_str="A" val_text="" is_set="1" def_name="related_po_manage_foundation1" def_type="enum" />
+    <DATA_FIELD id="239599" val_str="A" val_text="" is_set="1" def_name="related_po_manage_foundation2" def_type="enum" />
+    <DATA_FIELD id="239600" val_str="A" val_text="" is_set="1" def_name="related_po_manage_foundation3" def_type="enum" />
+    <DATA_FIELD id="239601" val_str="A" val_text="" is_set="1" def_name="related_po_manage_foundation4" def_type="enum" />
+    <DATA_FIELD id="239602" val_str="" val_text="" is_set="1" def_name="related_po_manage_ident_doc1" def_type="string" />
+    <DATA_FIELD id="239603" val_str="Registar posebnih komanditnih društava Kajmanskih otoka" val_text="" is_set="1" def_name="related_po_manage_ident_doc2" def_type="string" />
+    <DATA_FIELD id="239604" val_str="" val_text="" is_set="1" def_name="related_po_manage_ident_doc3" def_type="string" />
+    <DATA_FIELD id="239605" val_str="" val_text="" is_set="1" def_name="related_po_manage_ident_doc4" def_type="string" />
+    <DATA_FIELD id="239606" val_str="direktni" val_text="" is_set="1" def_name="related_po_manage_info1" def_type="enum" />
+    <DATA_FIELD id="239607" val_str="indirektni" val_text="" is_set="1" def_name="related_po_manage_info2" def_type="enum" />
+    <DATA_FIELD id="239608" val_str="direktni" val_text="" is_set="1" def_name="related_po_manage_info3" def_type="enum" />
+    <DATA_FIELD id="239609" val_str="direktni" val_text="" is_set="1" def_name="related_po_manage_info4" def_type="enum" />
+    <DATA_FIELD id="239610" val_str="100.00" val_text="" is_set="1" def_name="related_po_manage_percentage_of_shares1" def_type="decimal" />
+    <DATA_FIELD id="239611" val_str="97.50" val_text="" is_set="1" def_name="related_po_manage_percentage_of_shares2" def_type="decimal" />
+    <DATA_FIELD id="239612" val_text="" is_set="0" def_name="related_po_manage_percentage_of_shares3" def_type="decimal" />
+    <DATA_FIELD id="239613" val_text="" is_set="0" def_name="related_po_manage_percentage_of_shares4" def_type="decimal" />
+    <DATA_FIELD id="239614" val_str="Zagreb" val_text="" is_set="1" def_name="related_po_manage_place1" def_type="string" />
+    <DATA_FIELD id="239615" val_str="Camana Bay" val_text="" is_set="1" def_name="related_po_manage_place2" def_type="string" />
+    <DATA_FIELD id="239616" val_str="" val_text="" is_set="1" def_name="related_po_manage_place3" def_type="string" />
+    <DATA_FIELD id="239617" val_str="" val_text="" is_set="1" def_name="related_po_manage_place4" def_type="string" />
+    <DATA_FIELD id="239618" val_str="37656070238" val_text="" is_set="1" def_name="related_po_manage_stev_reg1" def_type="string" />
+    <DATA_FIELD id="239619" val_str="09127153192" val_text="" is_set="1" def_name="related_po_manage_stev_reg2" def_type="string" />
+    <DATA_FIELD id="239620" val_str="" val_text="" is_set="1" def_name="related_po_manage_stev_reg3" def_type="string" />
+    <DATA_FIELD id="239621" val_str="" val_text="" is_set="1" def_name="related_po_manage_stev_reg4" def_type="string" />
+    <DATA_FIELD id="239622" val_text="" is_set="0" def_name="who_starts" def_type="string" />
+  </DATA_FIELDS>
+</INSTANCE>

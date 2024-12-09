@@ -1,0 +1,146 @@
+DODAO SAM na 4 KORAKA
+      <data_field name="customer_sif_dej_mark" />
+      <data_field name="customer_peergroup_mark" />
+      <data_field name="customer_risk_mark" />
+
+
+ <!--IDEMO LI ISPOČETKA-->
+  <user_step name="review_step" description="Odabir ponovnog unosa podataka ili završetak" title="Odabir ponovnog unosa podataka ili završetak">
+    <user_or_group>PRODAJA</user_or_group>
+    <fields_to_be_displayed>
+      <data_field name="customer_oib" />
+      <data_field name="customer_desc" />
+      <data_field name="customer_type" />
+      <data_field name="customer_form" />
+      <data_field name="customer_category" />
+      <data_field name="customer_address" />
+      <data_field name="customer_place" />
+      <data_field name="customer_country" />
+      <data_field name="customer_business_address" />
+      <data_field name="customer_business_place" />
+      <data_field name="customer_business_country" />
+      <data_field name="customer_date_of_establishment" />
+      <data_field name="customer_drzavljan" />
+      <data_field name="customer_place_of_birth" />
+      <data_field name="customer_emso" />
+      <data_field name="customer_stev_reg" />
+      <data_field name="customer_obligations_vat" />
+      <data_field name="customer_number_of_employees" />
+      <data_field name="customer_sif_dej" />
+      <data_field name="contact_desc" />
+      <data_field name="contact_oib" />
+      <data_field name="contact_phone" />
+      <data_field name="customer_not_present" />
+      <data_field name="customer_is_pio" />
+    </fields_to_be_displayed>
+	
+	  
+<user_step name="is_aproval_needed" description="Unesite komentar evaluacije" title="Unesite komentar evaluacije">
+    <user_or_group>PRODAJA</user_or_group>
+    <fields_to_be_entered>
+      <data_field name="eval_comment" optional="true" />
+    </fields_to_be_entered>
+    <fields_to_be_displayed>
+      <data_field name="calculated_mark" />
+      <data_field name="customer_oib" />
+      <data_field name="customer_desc" />
+      <data_field name="customer_type" />
+      <data_field name="customer_form" />
+      <data_field name="customer_category" />
+      <data_field name="customer_address" />
+      <data_field name="customer_place" />
+      <data_field name="customer_country" />
+      <data_field name="customer_business_address" />
+      <data_field name="customer_business_place" />
+      <data_field name="customer_business_country" />
+      <data_field name="customer_date_of_establishment" />
+      <data_field name="customer_drzavljan" />
+      <data_field name="customer_emso" />
+      <data_field name="customer_stev_reg" />
+      <data_field name="customer_obligations_vat" />
+      <data_field name="customer_number_of_employees" />
+      <data_field name="customer_sif_dej" />
+      <data_field name="contact_desc" />
+      <data_field name="contact_oib" />
+      <data_field name="contact_phone" />
+    </fields_to_be_displayed>
+    <next_step>evaluation_aproval</next_step>
+  </user_step>
+  
+ <!--ODOBRENJE EVALUACIJE-->
+  <user_step name="evaluation_aproval" title="Odobrenje evaluacije" description="Odobrenje evaluacije za partnera">
+    <user_or_group>PRODAJA</user_or_group>
+    <fields_to_be_entered>
+      <!--<data_field name="evaluation_aproved" optional="false"/>-->
+      <data_field name="eval_comment_aproved" optional="true" />
+      <data_field name="changed_mark" optional="false" />
+      <data_field name="eval_date" optional="false" />
+      <data_field name="customer_do_business" optional="false" />
+      <data_field name="evaluation_channel_delivery" optional="false" />
+    </fields_to_be_entered>
+    <fields_to_be_displayed>
+      <data_field name="calculated_mark" />
+      <data_field name="eval_comment" />
+      <data_field name="evaluation_channel_delivery" />
+      <data_field name="customer_oib" />
+      <data_field name="customer_desc" />
+      <data_field name="customer_type" />
+      <data_field name="customer_form" />
+      <data_field name="customer_category" />
+      <data_field name="customer_address" />
+      <data_field name="customer_place" />
+      <data_field name="customer_country" />
+      <data_field name="customer_business_address" />
+      <data_field name="customer_business_place" />
+      <data_field name="customer_business_country" />
+      <data_field name="customer_date_of_establishment" />
+      <data_field name="customer_drzavljan" />
+      <data_field name="customer_emso" />
+      <data_field name="customer_stev_reg" />
+      <data_field name="customer_obligations_vat" />
+      <data_field name="customer_number_of_employees" />
+      <data_field name="customer_sif_dej" />
+      <data_field name="contact_desc" />
+      <data_field name="contact_oib" />
+      <data_field name="contact_phone" />
+      <data_field name="customer_is_pio" />
+    </fields_to_be_displayed>
+	
+
+<user_step name="evaluation_aproval2" title="Odobrenje evaluacije nakon ručne izmjene ocjene" description="Odobrenje evaluacije za partnera nakon ručne izmjene ocjene">
+    <user_or_group>RISK</user_or_group>
+    <fields_to_be_entered>
+      <!--<data_field name="evaluation_aproved" optional="false"/>-->
+      <data_field name="eval_comment_aproved" optional="true" />
+      <data_field name="changed_mark" optional="false" />
+      <data_field name="eval_date" optional="false" />
+      <data_field name="customer_do_business" optional="false" />
+      <data_field name="evaluation_channel_delivery" optional="false" />
+    </fields_to_be_entered>
+    <fields_to_be_displayed>
+      <data_field name="calculated_mark" />
+      <data_field name="eval_comment" />
+      <data_field name="evaluation_channel_delivery" />
+      <data_field name="customer_oib" />
+      <data_field name="customer_desc" />
+      <data_field name="customer_type" />
+      <data_field name="customer_form" />
+      <data_field name="customer_category" />
+      <data_field name="customer_address" />
+      <data_field name="customer_place" />
+      <data_field name="customer_country" />
+      <data_field name="customer_business_address" />
+      <data_field name="customer_business_place" />
+      <data_field name="customer_business_country" />
+      <data_field name="customer_date_of_establishment" />
+      <data_field name="customer_drzavljan" />
+      <data_field name="customer_emso" />
+      <data_field name="customer_stev_reg" />
+      <data_field name="customer_obligations_vat" />
+      <data_field name="customer_number_of_employees" />
+      <data_field name="customer_sif_dej" />
+      <data_field name="contact_desc" />
+      <data_field name="contact_oib" />
+      <data_field name="contact_phone" />
+      <data_field name="customer_is_pio" />
+    </fields_to_be_displayed>

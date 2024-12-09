@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Tomislav Krnjak</Author>
+  <LastAuthor>Tomislav Krnjak</LastAuthor>
+  <Created>2018-11-19T08:45:20Z</Created>
+  <LastSaved>2019-03-20T09:48:21Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8430</WindowHeight>
+  <WindowWidth>24540</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s57">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s58">
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s60">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Postavke">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s57" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s57" ss:Width="54.75"/>
+   <Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="61.5"/>
+   <Column ss:StyleID="s57" ss:Width="40.5"/>
+   <Column ss:StyleID="s57" ss:Width="50.25"/>
+   <Column ss:StyleID="s57" ss:Width="41.25"/>
+   <Column ss:StyleID="s57" ss:Width="22.5"/>
+   <Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="106.5"/>
+   <Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="54.75"/>
+   <Column ss:StyleID="s57" ss:Width="46.5"/>
+   <Column ss:StyleID="s57" ss:Width="65.25"/>
+   <Column ss:StyleID="s57" ss:Width="75.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="22.5" ss:Hidden="1">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">protikonto</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">znesek</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">id_strm</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">id_pog</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">id_kljuc</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">d_k</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">opisdok</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">id_vrst_dod_str</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">id_kupca</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">interna_veza</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">projectnumber</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21" ss:Hidden="1">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">string(8)</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">decimal(18,2)</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">string(4)</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">string(8)</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">string(4)</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">string(1)</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">string(45)</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">string(2)</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">string(6)</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">string(50)</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">string(50)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="19.5" ss:Hidden="1">
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Protukonto</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Iznos</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Mj. tr.</Data></Cell>
+    <Cell><Data ss:Type="String">Ugovor</Data></Cell>
+    <Cell><Data ss:Type="String">Ključ</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">D/C</Data></Cell>
+    <Cell><Data ss:Type="String">Opis</Data></Cell>
+    <Cell><Data ss:Type="String">Dod. tr.</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Partner</Data></Cell>
+    <Cell><Data ss:Type="String">Interna veza</Data></Cell>
+    <Cell><Data ss:Type="String">Projekt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">160003</Data></Cell>
+    <Cell><Data ss:Type="Number">17.5</Data></Cell>
+    <Cell><Data ss:Type="String">0000</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">D</Data></Cell>
+    <Cell><Data ss:Type="String">Uvoz stavaka</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">080065</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">457900 </Data></Cell>
+    <Cell><Data ss:Type="Number">7.5</Data></Cell>
+    <Cell><Data ss:Type="String">0000</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">D</Data></Cell>
+    <Cell><Data ss:Type="String">Uvoz stavaka</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">080065</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">450400  </Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">0000</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">D</Data></Cell>
+    <Cell><Data ss:Type="String">Uvoz stavaka</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">080065</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

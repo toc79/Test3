@@ -1,0 +1,14 @@
+Poštovana/i, 
+
+za točke 1, 2, 3 i 6 vam šaljemo ponudu u privitku.
+
+4. oko navedenog ćemo imati informaciju do kraja ovog tjedna.
+
+5. za ovakvu slučajeve imamo funkcionalnost ugrađenu u aplikaciju koja se podešava u šifrantu 'Zakonski dozvoljene EKS' (opcija Održavanje | Šifranti | Ugovori | Zakonski dozvoljene EKS). S podešavanjem šifranta za fizička lica (FO), kod spremanja ponude i ugovora se prikazuje poruka odgovarajuća poruka u slučaju da je EKS prekoračen, poruka je samo informativna i može se nastaviti sa spremanjem. Ako želite da nastavak spremanja nije moguć, tada bi trebali implementirati takve kontrole (koja će gledati podešavanja u navedenom šifrantu) u koraku spremanja podataka ponude i neaktivnog ugovora. Za navedeno bi vam poslali dodatnu ponudu.
+Na portalu će podešavanje u šifrantu također vrijediti, dodatno se može u opciji 
+Podešavanja | Podešavanja unosa podataka
+podesiti opcija 'EKS blokada' da li se ponuda može ili ne spremiti ako se EKS prekoračen.
+
+7. doradu ćemo napraviti besplatno.
+
+Dodatno oko označavanja da je ponuda za rabljeno vozilo, na masci kalkulacije na tabu/stranici Ponuda postoji polje 'Rabljeni' koje možete označiti u slučaju da se radi o takvoj opremi. Mi vam možemo ugraditi kontrolu da ako je označeno polje 'Rabljeni' i ako nisu uneseni troškovi "Procjena rabljenog objekta leasinga", da se javi odgovarajuća poruka i onemogući spremanje takve ponude. Za navedeno bi vam poslali dodatnu ponudu.

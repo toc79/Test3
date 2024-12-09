@@ -1,0 +1,10 @@
+select * from dbo.vrst_ter_fikt
+
+insert into dbo.vrst_ter_fikt
+values('KO','KAOS','Kasko osiguranje',1,NULL)
+
+-- INSERT INTO dbo.kalk_form_stros(pogoj,str_of,df_str,df_str_p,id_stroska,id_terj,opis,disable_str,disable_str_p,vrstni_red,predlaga_na_ponudbi,neaktiven) VALUES('select @add = case when ''{nl}'' = ''F1'' then 1 else 0 end','#vr_val','round(#str_osnova*#str_procent/100,2)','round(#str_znesek*100/#str_osnova,4)','KO',NULL,NULL,0,0,10,1,0)
+-- INSERT INTO dbo.kalk_form_stros(pogoj,str_of,df_str,df_str_p,id_stroska,id_terj,opis,disable_str,disable_str_p,vrstni_red,predlaga_na_ponudbi,neaktiven) VALUES('select @add = case when ''{nl}'' = ''F2'' then 1 else 0 end','#vr_val','round(#str_osnova*#str_procent/100,2)','round(#str_znesek*100/#str_osnova,4)','KO',NULL,NULL,0,0,10,1,0)
+-- INSERT INTO dbo.kalk_form_stros(pogoj,str_of,df_str,df_str_p,id_stroska,id_terj,opis,disable_str,disable_str_p,vrstni_red,predlaga_na_ponudbi,neaktiven) VALUES('select @add = case when ''{nl}'' = ''F3'' then 1 else 0 end','#vr_val','round(#str_osnova*#str_procent/100,2)','round(#str_znesek*100/#str_osnova,4)','KO',NULL,NULL,0,0,10,1,0)
+-- INSERT INTO dbo.kalk_form_stros(pogoj,str_of,df_str,df_str_p,id_stroska,id_terj,opis,disable_str,disable_str_p,vrstni_red,predlaga_na_ponudbi,neaktiven) VALUES('select @add = case when ''{nl}'' = ''F4'' then 1 else 0 end','#vr_val','round(#str_osnova*#str_procent/100,2)','round(#str_znesek*100/#str_osnova,4)','KO',NULL,NULL,0,0,10,1,0)
+-- INSERT INTO dbo.kalk_form_stros(pogoj,str_of,df_str,df_str_p,id_stroska,id_terj,opis,disable_str,disable_str_p,vrstni_red,predlaga_na_ponudbi,neaktiven) VALUES('select @add = case when ''{nl}'' = ''F5'' then 1 else 0 end','#vr_val','round(#str_osnova*#str_procent/100,2)','round(#str_znesek*100/#str_osnova,4)','KO',NULL,NULL,0,0,10,1,0)

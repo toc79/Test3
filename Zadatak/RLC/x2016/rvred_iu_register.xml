@@ -1,0 +1,25 @@
+{e04e3d5e-8463-4c43-af5c-69435a059277}
+************
+<rvred_iu_register xmlns='urn:gmi:nova:leasing'>
+<is_update>false</is_update>
+<id_rtip>EUR34</id_rtip>
+<datum>2016-03-06T00:00:00.000</datum>
+<indeks>0.215400</indeks>
+<old_index>-0.216000</old_index>
+</rvred_iu_register>
+
+************
+<cookie>{64124c2f-8598-4d69-9d27-07d259aa18f8}</cookie>
+
+
+
+{c4ea53c7-9522-4acc-a56c-b08d658ff070}
+************
+<rvred_iu_register xmlns='urn:gmi:nova:leasing'>
+<is_update>false</is_update>
+<id_rtip>EUR11</id_rtip>
+<datum>2016-03-06T00:00:00.000</datum>
+<indeks>-0.287511</indeks>
+<old_index>-0.287000</old_index>
+</rvred_iu_register>
+

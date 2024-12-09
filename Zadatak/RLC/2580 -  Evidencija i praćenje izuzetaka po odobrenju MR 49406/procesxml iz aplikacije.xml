@@ -1,0 +1,124 @@
+UNOS POSEBNSTI I STATUSA UGOVORA => od sljedeće verzije će opomene za dokumentaciju biti u posebnostima ugovora pog_pos
+
+<?xml version='1.0' encoding='utf-8' ?>
+<rpg_contract_update xmlns="urn:gmi:nova:leasing">
+<common_parameters>
+  <id_cont>78818</id_cont>
+  <comment>test GMC</comment>
+  <hash_value>777400911</hash_value>
+  <id_rep_category>999</id_rep_category>
+  <use_4eyes>false</use_4eyes>
+</common_parameters>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>ID_CONT</name>
+  <updated_value>78818</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>OPOMINI</name>
+  <updated_value>2123-05-01T00:00:00.000</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>KDO</name>
+  <updated_value>g_tomislav</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>KDAJ</name>
+  <updated_value>2023-05-25T00:00:00.000</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>OPIS</name>
+  <updated_value>test GMC</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>STATUS</name>
+  <updated_value>4</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>PON_PRED_ODKUP</name>
+  <updated_value>2123-05-01T00:00:00.000</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>POGODBA</table_name>
+  <name>status</name>
+  <updated_value>OD</updated_value>
+</updated_values>
+</rpg_contract_update>
+
+UPDATE posebnosti 
+<?xml version='1.0' encoding='utf-8' ?>
+<rpg_contract_update xmlns="urn:gmi:nova:leasing">
+<common_parameters>
+  <id_cont>78818</id_cont>
+  <comment>test GMC</comment>
+  <hash_value>1562412714</hash_value>
+  <id_rep_category>999</id_rep_category>
+  <use_4eyes>false</use_4eyes>
+</common_parameters>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>OPOMINI</name>
+  <updated_value>2123-05-02T00:00:00.000</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>KDAJ</name>
+  <updated_value>2023-05-25T00:00:00.000</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>PON_PRED_ODKUP</name>
+  <updated_value>2123-05-02T00:00:00.000</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>STORNO_TERJ</name>
+  <updated_value>2123-05-02T00:00:00.000</updated_value>
+</updated_values>
+</rpg_contract_update>
+
+DELETE dva datuma posebnosti 
+<?xml version='1.0' encoding='utf-8' ?>
+<rpg_contract_update xmlns="urn:gmi:nova:leasing">
+<common_parameters>
+  <id_cont>78818</id_cont>
+  <comment>test GMC</comment>
+  <hash_value>1562412714</hash_value>
+  <id_rep_category>999</id_rep_category>
+  <use_4eyes>false</use_4eyes>
+</common_parameters>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>OPOMINI</name>
+  <is_null>true</is_null>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>KDAJ</name>
+  <updated_value>2023-05-25T00:00:00.000</updated_value>
+</updated_values>
+<updated_values>
+  <table_name>pog_pos</table_name>
+  <name>PON_PRED_ODKUP</name>
+  <is_null>true</is_null>
+</updated_values>
+</rpg_contract_update>
+
+
+DELETE posebnosti ugovora 
+<?xml version='1.0' encoding='utf-8' ?>
+<rpg_contract_update xmlns="urn:gmi:nova:leasing">
+<common_parameters>
+  <id_cont>78818</id_cont>
+  <comment>pos_pog_del</comment>
+  <hash_value>1562412714</hash_value>
+  <id_rep_category>999</id_rep_category>
+  <use_4eyes>false</use_4eyes>
+</common_parameters>
+</rpg_contract_update >
