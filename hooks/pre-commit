@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Set maximum file size (in bytes), e.g., 500 KB
+MAX_SIZE=$((500 * 1024))
+
+# Find large files staged for commit
+large_files=$(git diff --cached --name-only | while read filename; do
+    # Check if the file exists and is larger than MAX_SIZE
+    if [ -f "$filename" ] && [ $(stat -c%s "$filename") -gt $MAX_SIZE ]; then
+        echo "$filename"
+    fi
+done)
+
+# If large files are found, block the commit
+if [ -n "$large_files" ]; then
+    echo "The following files exceed the size limit of 50 MB:"
+    echo "$large_files"
+    echo "Commit aborted. Please remove or reduce the size of these files."
+    exit 1
+fi
+
+exit 0
